@@ -8,3 +8,6 @@ enable bluetooth.service
 enable cups.service
 enable systemd-resolve.service
 enable udisks2
+enable pipewire
+enable pipewire-pulse
+enable wireplumber

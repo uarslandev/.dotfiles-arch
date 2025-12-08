@@ -1,8 +1,11 @@
+
 -- Set leader key to space
 vim.g.mapleader = " "
 
 -- Open netrw file explorer with <leader>pv
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
 
 -- Smart <CR>: expand to multiline inside paired characters
 vim.api.nvim_set_keymap('i', '{<CR>', '{<CR>}<ESC>O', { noremap = true, silent = true })
@@ -11,6 +14,16 @@ vim.api.nvim_set_keymap('i', '[<CR>', '[<CR>]<ESC>O', { noremap = true, silent =
 vim.api.nvim_set_keymap('i', '"<CR>', '"<CR>"<ESC>O', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', "'<CR>", "'<CR>'<ESC>O", { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', '`<CR>', '`<CR>`<ESC>O', { noremap = true, silent = true })
+
+vim.keymap.set('n', 'j', 'jzz', { desc = 'Scroll downwards' })
+vim.keymap.set('n', 'k', 'kzz', { desc = 'Scroll downwards' })
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Scroll downwards' })
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Scroll downwards' })
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Scroll upwards' })
+
+-- Exit Terminal Mode
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
+vim.keymap.set('t', '<C-q>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
 
 
 -- Set leader key to space
@@ -64,8 +77,8 @@ vim.keymap.set("n", "Q", "<nop>")
 -- Open tmux sessionizer
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
--- Format buffer
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+---- Format buffer
+--vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- Quickfix navigation
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")

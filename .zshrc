@@ -1,9 +1,3 @@
-export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
-
-set -a
-source ~/.env
-set +a
-
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
@@ -398,7 +392,7 @@ alias ceserver="/opt/ceserver/ceserver"
 alias cengine="/opt/cheat-engine-zh/Cheat\ Engine.exe"
 alias py=python
 
-pokemon-colorscripts -r
+#pokemon-colorscripts -r
 
 if [ -f "/opt/miniforge/etc/profile.d/conda.sh" ]; then
     . "/opt/miniforge/etc/profile.d/conda.sh"

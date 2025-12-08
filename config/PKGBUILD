@@ -23,99 +23,94 @@ sha512sums=('SKIP')
 depends=(
     7zip
     adobe-source-han-sans-jp-fonts
-    adwaita-dark
     amd-ucode
     angular-cli
     ani-cli
     anki-bin
-    arandr
     ardour
     audacity
-    autokey-gtk
-    autorandr
+    baobab
     base
     base-devel
     bash-language-server
     blender
-    blueman
-    bluez
-    bluez-utils
     bottles
-    brightnessctl
     btop
-    calibre
-    cargo
     carla
-    ccls
     ceserver
     cheat-engine-zh
-    clipse-bin
-    copyq
     csharp-ls
     cups
     cups-pdf
     curl
-    darktable
-    deno
-    direnv
-    dmenu
+    decibels
     docker
     docker-compose
     dockerfile-language-server
     dolphin-emu
     dotnet-sdk
-    dracula-gtk-theme
-    dracula-icons-git
-    dunst
     efibootmgr
     element-desktop
-    espeak-ng
-    evince
-    fcitx5
-    fcitx5-configtool
-    fcitx5-gtk
-    fcitx5-mozc
+    epiphany
     fd
-    feh
     firefox
-    flameshot
     fzf
     fzf-tab-git
-    gambas3-gb-sdl2
-    gameconqueror
-    gamemode
-    gamescope
     gdb
-    gemini-cli-bin
+    gdm
     ghidra
-    gimp
     git
     git-delta
     git-filter-repo
     github-cli
     git-secret
+    gnome-backgrounds
+    gnome-calculator
+    gnome-calendar
+    gnome-characters
+    gnome-clocks
+    gnome-color-manager
+    gnome-connections
+    gnome-console
+    gnome-contacts
+    gnome-control-center
+    gnome-disk-utility
+    gnome-font-viewer
     gnome-keyring
-    google-chrome
-    gpick
+    gnome-logs
+    gnome-maps
+    gnome-menus
+    gnome-music
+    gnome-remote-desktop
+    gnome-software
+    gnome-system-monitor
+    gnome-text-editor
+    gnome-tour
+    gnome-tweaks
+    gnome-user-docs
+    gnome-user-share
+    gnome-weather
     graphql-lsp
-    grim
+    grilo-plugins
     gst-plugin-pipewire
     guitarix
     gvfs
+    gvfs-afc
+    gvfs-dnssd
+    gvfs-goa
+    gvfs-google
+    gvfs-gphoto2
+    gvfs-mtp
+    gvfs-nfs
+    gvfs-onedrive
+    gvfs-smb
+    gvfs-wsdd
     gxplugins-lv2-git
-    gzip
     hyprland
     hyprpicker
     hyprshot
-    i3blocks
-    i3lock-color
-    i3status
-    i3-wm
     ida-free
     imhex-bin
-    inetutils
-    inkscape
-    insomnia-bin
     intel-compute-runtime
     intel-media-driver
     intel-ucode
@@ -123,38 +118,30 @@ depends=(
     jdownloader2
     jetbrains-toolbox
     k9s
+    kaccounts-providers
     kanagawa-gtk-theme-git
     kanagawa-icon-theme-git
     kanshi
     kdeconnect
     kdenlive
     keepassxc
+    kio-gdrive
     kitty
-    krita
-    lib32-sdl_image
-    libpulse
-    libreoffice-fresh
-    lightdm
-    lightdm-gtk-greeter
+    layer-shell-qt5
     linux
     linux-firmware
     linux-lts-headers
-    localsend-bin
+    loupe
     lua-language-server
-    lxappearance
+    malcontent
     man-db
     mangohud
     man-pages
-    matcha-gtk-theme
     maven
     mesa-utils
-    miniforge
     mongodb-bin
-    mongodb-compass-bin
     mongosh-bin
-    mov-cli
     nano
-    neofetch
     neovim
     net-tools
     networkmanager
@@ -166,35 +153,27 @@ depends=(
     npm
     ntfs-3g
     nvim-lazy
-    nvtop
-    nwg-displays
-    nwg-look
     obsidian
     obs-studio
     oh-my-zsh-git
-    ollama
     openssh
+    orca
     otf-aurulent-nerd
+    papers
     paru
     paru-debug
-    paruz
     pavucontrol
-    pcmanfm
     pcsx2-latest-bin
-    pdftk
-    picom
     pipewire
     pipewire-alsa
     pipewire-docs
     pipewire-jack
     pipewire-pulse
-    pokemon-colorscripts-git
     proton-ge-custom-bin
     pyright
     python
     python-i3ipc
     python-virtualenv
-    qalculate-gtk
     qbittorrent
     qjackctl
     ranger
@@ -202,25 +181,18 @@ depends=(
     rclone
     reclass.net-bin
     ripgrep
-    rofi
-    rofi-calc
-    rust
+    rygel
     samba
-    scanmem
-    sddm
-    sdl2-compat
-    slurp
-    smartmontools
-    sox
+    showtime
+    simple-scan
+    snapshot
+    sof-firmware
     sql-language-server
     steam
-    swaybg
-    swayimg
-    swaylock-effects
-    swww
+    sushi
     systemd
     teamspeak
-    tela-circle-icon-theme-dracula
+    tecla
     texlab
     texlive-basic
     texlive-bibtexextra
@@ -248,9 +220,7 @@ depends=(
     thunderbird
     tlp
     tmux
-    tofi
     torbrowser-launcher
-    trayer
     tree
     ttf-nerd-fonts-symbols
     typescript-language-server
@@ -264,34 +234,26 @@ depends=(
     vimix-kanagawa-cursors
     visual-studio-code-bin
     vlc
-    volumeicon
     vscode-html-languageserver
     vscode-json-languageserver
     vue-language-server
     vulkan-intel
     vulkan-radeon
     vulkan-tools
-    waybar
     wget
     which
     winetricks
     wireless_tools
     wireplumber
-    wl-clipboard
-    wofi
-    wpaperd
-    wtype
     xarchiver
-    xclip
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     xdg-utils
     xdotool
-    xf86-video-amdgpu
-    xf86-video-intel
     xss-lock
     yad
     yarn
+    yelp
     ytmdesktop-git
     zeal
     zip
