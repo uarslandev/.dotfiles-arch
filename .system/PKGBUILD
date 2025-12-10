@@ -35,6 +35,7 @@ depends=(
     cups-pdf
     curl
     decibels
+    direnv
     docker
     docker-compose
     dockerfile-language-server
@@ -80,6 +81,7 @@ depends=(
     gnome-shell-extension-caffeine
     gnome-shell-extension-clipboard-indicator
     gnome-shell-extension-dash-to-dock
+    gnome-shell-extension-dash-to-dock-git
     gnome-shell-extension-gsconnect
     gnome-shell-extension-system-monitor-next-git
     gnome-software
@@ -218,6 +220,7 @@ depends=(
     winetricks
     wireless_tools
     wireplumber
+    wl-clipboard
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
     xdg-user-dirs-gtk
