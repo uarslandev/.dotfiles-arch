@@ -3,7 +3,6 @@ Description="Session Target"
 After=graphical-session-pre.target
 WantedBy=graphical-session.target
 Wants=drive.timer
-Wants=youtube-music-player.service
 Wants=fcitx5.service
 Wants=xss-lock.service
 Wants=kanshi.service

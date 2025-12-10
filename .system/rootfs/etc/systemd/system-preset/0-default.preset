@@ -1,0 +1,8 @@
+enable bluetooth.service
+enable cups.service
+enable docker.service
+enable gdm.service
+enable mongodb.service
+enable pipewire
+enable pipewire-pulse
+enable wireplumber

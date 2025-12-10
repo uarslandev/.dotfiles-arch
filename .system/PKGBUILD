@@ -4,34 +4,17 @@ pkgname=linux-config
 pkgver=0.1.0
 pkgrel=12
 pkgdesc='linux config'
-url="https://github.com/uarslan-git/linux-config"
+url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
 arch=('x86_64')
-
-pkgname=linux-config
-pkgver=0.1.0
-pkgrel=12
-pkgdesc='linux config'
-url="https://github.com/uarslan-git/linux-config"
-license=('GPL3')
-arch=('x86_64')
-source=('rootfs.tar')
-noextract=('rootfs.tar')
-sha512sums=('SKIP')
 
 #startPackages
 depends=(
     7zip
     adobe-source-han-sans-jp-fonts
-    amd-ucode
     angular-cli
     ani-cli
     anki-bin
-    ardour
-    audacity
-    baobab
-    base
-    base-devel
     bash-language-server
     blender
     bottles
@@ -43,15 +26,12 @@ depends=(
     cups
     cups-pdf
     curl
-    decibels
     docker
     docker-compose
     dockerfile-language-server
-    dolphin-emu
     dotnet-sdk
     efibootmgr
     element-desktop
-    epiphany
     fd
     firefox
     fzf
@@ -91,7 +71,6 @@ depends=(
     gnome-user-share
     gnome-weather
     graphql-lsp
-    grilo-plugins
     gst-plugin-pipewire
     guitarix
     gvfs
@@ -106,9 +85,6 @@ depends=(
     gvfs-smb
     gvfs-wsdd
     gxplugins-lv2-git
-    hyprland
-    hyprpicker
-    hyprshot
     ida-free
     imhex-bin
     intel-compute-runtime
@@ -118,22 +94,14 @@ depends=(
     jdownloader2
     jetbrains-toolbox
     k9s
-    kaccounts-providers
     kanagawa-gtk-theme-git
     kanagawa-icon-theme-git
-    kanshi
     kdeconnect
-    kdenlive
     keepassxc
-    kio-gdrive
-    kitty
-    layer-shell-qt5
     linux
     linux-firmware
     linux-lts-headers
-    loupe
     lua-language-server
-    malcontent
     man-db
     mangohud
     man-pages
@@ -145,7 +113,6 @@ depends=(
     neovim
     net-tools
     networkmanager
-    network-manager-applet
     nmap
     nodejs-lts-jod
     notion-app-electron
@@ -157,9 +124,7 @@ depends=(
     obs-studio
     oh-my-zsh-git
     openssh
-    orca
     otf-aurulent-nerd
-    papers
     paru
     paru-debug
     pavucontrol
@@ -181,44 +146,12 @@ depends=(
     rclone
     reclass.net-bin
     ripgrep
-    rygel
     samba
-    showtime
-    simple-scan
-    snapshot
-    sof-firmware
     sql-language-server
     steam
-    sushi
     systemd
     teamspeak
-    tecla
-    texlab
-    texlive-basic
-    texlive-bibtexextra
-    texlive-binextra
-    texlive-context
-    texlive-fontsextra
-    texlive-fontsrecommended
-    texlive-fontutils
-    texlive-formatsextra
-    texlive-games
-    texlive-humanities
-    texlive-latex
-    texlive-latexextra
-    texlive-latexrecommended
-    texlive-luatex
-    texlive-mathscience
-    texlive-metapost
-    texlive-music
-    texlive-pictures
-    texlive-plaingeneric
-    texlive-pstricks
-    texlive-publishers
-    texlive-xetex
-    texstudio
     thunderbird
-    tlp
     tmux
     torbrowser-launcher
     tree
@@ -233,7 +166,6 @@ depends=(
     vim
     vimix-kanagawa-cursors
     visual-studio-code-bin
-    vlc
     vscode-html-languageserver
     vscode-json-languageserver
     vue-language-server
@@ -245,13 +177,9 @@ depends=(
     winetricks
     wireless_tools
     wireplumber
-    xarchiver
     xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
     xdg-utils
     xdotool
-    xss-lock
-    yad
     yarn
     yelp
     ytmdesktop-git
@@ -272,7 +200,6 @@ if lspci | grep -i 'GeForce'; then depends+=(
     mangohud
     nvidia
     nvidia-settings
-    upscayl-bin
     opencl-nvidia
     zerotier-one
     ); fi
