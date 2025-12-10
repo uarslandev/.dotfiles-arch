@@ -1,6 +1,3 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -66,55 +63,6 @@ fi
 . $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || . ~/.p10k.zsh
-
-# Functions
-function scale(){
-    if [ -z $1 ]; then
-        echo "set a dpi"
-        return 1
-    fi
-
-    factor=$1
-    dpi=$((factor * 96))
-
-    if [ ! -f ~/.Xresources ]; then
-        echo "Creating .Xresources"
-        touch ~/.Xresources
-    fi
-
-    if grep -q '^Xft.dpi:' ~/.Xresources; then
-        sed -i "s/^Xft.dpi:.*/Xft.dpi: $dpi/" ~/.Xresources
-    else
-        echo "Xft.dpi: $dpi" >> ~/.Xresources
-    fi
-
-    xrdb $HOME/.Xresources
-    i3-msg restart
-
-    echo "xft.dpi set to $dpi"
-}
-
-function evdev(){
-    input_devices=$(ls /dev/input/by-id/*event* | grep -v if)
-
-    for device in $input_devices
-    do
-        if [[ $device == *"kbd"* && $device == *"Keyboard"* ]]; then
-            echo "<input type='evdev'>
-            <source dev='$device' grab='all' repeat='on' grabToggle='ctrl-ctrl'/>
-            </input>"
-        else
-            echo "<input type='evdev'>
-            <source dev='$device'/>
-            </input>"
-        fi
-    done | xclip -sel c
-}
-
-function google() {
-    local IFS=+
-    xdg-open "http://google.com/search?q=${*}"
-}
 
 function pkgSync(){
     cd $HOME
@@ -371,9 +319,9 @@ alias gcd="git commit -m '$(date)'"
 alias gco="git checkout"
 alias gl="git log --graph --pretty=format:'%C(auto)%h %d %s %C(blue)(%cr) %C(green)<%an>' --abbrev-commit --all --decorate"
 alias gls="git ls-files" # git list files
-alias glu="git ls-files --others --exclude-standard" #git lists untracked files
 alias glsf="git ls-files | awk -F'/' '{print \$1}' | sort | uniq" 
-alias gluf="git ls-files --others --exclude-standard | awk -F'/' '{print \$1}' | sort | uniq"
+alias glsu="git ls-files --others --exclude-standard" #git lists untracked files
+alias glsuf="git ls-files --others --exclude-standard | awk -F'/' '{print \$1}' | sort | uniq"
 alias gp="git push"
 alias gpl="git pull"
 alias gpr="git pull --rebase"
