@@ -117,7 +117,7 @@ function pkgSync(){
     local package
     local packages
     local depends
-    eval $(sed -n "/#startPackages/,/#endPackages/p" $HOME/config/PKGBUILD | rg -v '#')
+    eval $(sed -n "/#startPackages/,/#endPackages/p" $HOME/.system/PKGBUILD | rg -v '#')
     packages=$depends
 
     local targetPackages
@@ -210,9 +210,9 @@ function pkgSync(){
         ) | sed -r 's#$#\\n#g' | tr -d '\n' | sed -r 's#\\n$##g')
 
 
-        sed -i -e "/#endPackages/a ${newPackages}" -e '/#startPackages/,/#endPackages/d' $HOME/config/PKGBUILD
+        sed -i -e "/#endPackages/a ${newPackages}" -e '/#startPackages/,/#endPackages/d' $HOME/.system/PKGBUILD
 
-        cd $HOME/config && makepkg -fsi --noconfirm &> /dev/null
+        cd $HOME/.system && makepkg -fsi --noconfirm &> /dev/null
 
         local orphanedPackages
         orphanedPackages=$(paru -Qqtd)
@@ -236,15 +236,15 @@ function pkgSync(){
         if ! /usr/bin/diff <(echo $originalPackages) <(echo $targetPackages) &> /dev/null; then
             if read -q "?Commit? "; then
                 local pkgrel
-                eval "$(grep pkgrel $HOME/config/PKGBUILD)"
-                sed -i -e "s/pkgrel=$pkgrel/pkgrel=$(( $pkgrel + 1 ))/" $HOME/config/PKGBUILD #increase pkgrel
+                eval "$(grep pkgrel $HOME/.system/PKGBUILD)"
+                sed -i -e "s/pkgrel=$pkgrel/pkgrel=$(( $pkgrel + 1 ))/" $HOME/.system/PKGBUILD #increase pkgrel
                 # Commit the changes
-                cd $HOME/config
+                cd $HOME/.system
                 git add PKGBUILD
                 git commit -m "Update packages: pkgrel=$(( pkgrel + 1 ))"
                 git push
             fi
-            cd $HOME/config && makepkg -fsi --noconfirm &> /dev/null
+            cd $HOME/.system && makepkg -fsi --noconfirm &> /dev/null
         else
             echo "No changes to commit"
         fi
@@ -348,7 +348,7 @@ alias chrome="google-chrome-stable"
 alias dconf-load="pushd ~/.config; dconf load / < dconf-settings; popd"
 alias dconf-reset="dconf reset -f /"
 alias dconf-save="pushd ~/.config; dconf dump / > dconf-settings; popd"
-alias edit="vim ~/config/PKGBUILD"
+alias edit="vim ~/.system/PKGBUILD"
 alias ga="git add"
 alias groot='cd "$(git rev-parse --show-toplevel)"'
 alias wip='
@@ -376,8 +376,8 @@ alias ra="ranger"
 alias rb="backup; reboot"
 alias sd="backup; shutdown now"
 alias sudo="sudo "
-alias update="pushd ~/config; PACMAN='paru' PACMAN_AUTH='eval' makepkg -fsi; popd"
-alias u="pushd ~/config; PACMAN='paru' PACMAN_AUTH='eval' makepkg -fsi --noconfirm; systemctl daemon-reload && systemctl --user daemon-reload && systemctl preset-all; popd"
+alias update="pushd ~/.system; PACMAN='paru' PACMAN_AUTH='eval' makepkg -fsi; popd"
+alias u="pushd ~/.system; PACMAN='paru' PACMAN_AUTH='eval' makepkg -fsi --noconfirm; systemctl daemon-reload && systemctl --user daemon-reload && systemctl preset-all; popd"
 alias vi="nvim"
 alias vim="nvim"
 alias nc="--noconfirm"

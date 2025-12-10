@@ -2,11 +2,14 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=12
+pkgrel=17
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
 arch=('x86_64')
+source=('rootfs.tar')
+noextract=('rootfs.tar')
+sha512sums=('SKIP')
 
 #startPackages
 depends=(
@@ -15,8 +18,13 @@ depends=(
     angular-cli
     ani-cli
     anki-bin
+    baobab
+    base
+    base-devel
     bash-language-server
     blender
+    bluez
+    bluez-utils
     bottles
     btop
     carla
@@ -26,12 +34,14 @@ depends=(
     cups
     cups-pdf
     curl
+    decibels
     docker
     docker-compose
     dockerfile-language-server
     dotnet-sdk
     efibootmgr
     element-desktop
+    epiphany
     fd
     firefox
     fzf
@@ -62,8 +72,19 @@ depends=(
     gnome-menus
     gnome-music
     gnome-remote-desktop
+    gnome-session
+    gnome-settings-daemon
+    gnome-shell
+    gnome-shell-extension-arc-menu
+    gnome-shell-extension-blur-my-shell
+    gnome-shell-extension-caffeine
+    gnome-shell-extension-clipboard-indicator
+    gnome-shell-extension-dash-to-dock
+    gnome-shell-extension-gsconnect
+    gnome-shell-extension-system-monitor-next-git
     gnome-software
     gnome-system-monitor
+    gnome-terminal
     gnome-text-editor
     gnome-tour
     gnome-tweaks
@@ -71,6 +92,7 @@ depends=(
     gnome-user-share
     gnome-weather
     graphql-lsp
+    grilo-plugins
     gst-plugin-pipewire
     guitarix
     gvfs
@@ -85,6 +107,7 @@ depends=(
     gvfs-smb
     gvfs-wsdd
     gxplugins-lv2-git
+    htop
     ida-free
     imhex-bin
     intel-compute-runtime
@@ -98,10 +121,14 @@ depends=(
     kanagawa-icon-theme-git
     kdeconnect
     keepassxc
+    libpulse
+    libva-intel-driver
     linux
     linux-firmware
     linux-lts-headers
+    loupe
     lua-language-server
+    malcontent
     man-db
     mangohud
     man-pages
@@ -110,9 +137,12 @@ depends=(
     mongodb-bin
     mongosh-bin
     nano
+    nautilus
     neovim
     net-tools
     networkmanager
+    network-manager-applet
+    networkmanager-openvpn
     nmap
     nodejs-lts-jod
     notion-app-electron
@@ -124,7 +154,9 @@ depends=(
     obs-studio
     oh-my-zsh-git
     openssh
+    orca
     otf-aurulent-nerd
+    papers
     paru
     paru-debug
     pavucontrol
@@ -145,12 +177,21 @@ depends=(
     rar
     rclone
     reclass.net-bin
+    reflector
     ripgrep
+    rygel
     samba
+    showtime
+    simple-scan
+    smartmontools
+    snapshot
+    sof-firmware
     sql-language-server
     steam
+    sushi
     systemd
     teamspeak
+    tecla
     thunderbird
     tmux
     torbrowser-launcher
@@ -177,9 +218,13 @@ depends=(
     winetricks
     wireless_tools
     wireplumber
+    xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
+    xdg-user-dirs-gtk
     xdg-utils
     xdotool
+    xorg-server
+    xorg-xinit
     yarn
     yelp
     ytmdesktop-git
@@ -196,35 +241,33 @@ depends=(
   )
   #endPackages
 
-if lspci | grep -i 'GeForce'; then depends+=(
-    mangohud
-    nvidia
-    nvidia-settings
-    opencl-nvidia
-    zerotier-one
-    ); fi
+  # Conditional NVIDIA packages
+if lspci | grep -i 'GeForce' >/dev/null; then
+    depends+=(mangohud nvidia nvidia-settings opencl-nvidia zerotier-one)
+fi
 
-  # Functions
-  paru() {
-      if ! pacman -Qq | grep -i paru &>/dev/null; then
-          git clone https://aur.archlinux.org/paru.git
-          pushd paru
-          makepkg -sif
-          popd
-          rm -rf paru
-      fi
-  }
+# Functions (user-provided — unchanged)
+paru() {
+    if ! pacman -Qq | grep -i paru &>/dev/null; then
+        git clone https://aur.archlinux.org/paru.git
+        pushd paru
+        makepkg -sif
+        popd
+        rm -rf paru
+    fi
+}
 
 zsh() {
-    if [ $(basename $SHELL) != "zsh" ]; then
+    if [ "$(basename "$SHELL")" != "zsh" ]; then
         chsh -s /usr/bin/zsh
     fi
 }
 
+# Run user scripts
 paru
 zsh
 
 package() {
-    tar -xf rootfs.tar -C "$pkgdir" --overwrite
-    echo "finished"
+  tar -xf rootfs.tar -C "$pkgdir"
 }
+
