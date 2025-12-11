@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=17
+pkgrel=18
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -15,6 +15,7 @@ sha512sums=('SKIP')
 depends=(
     7zip
     adobe-source-han-sans-jp-fonts
+    amd-ucode
     angular-cli
     ani-cli
     anki-bin
@@ -36,6 +37,7 @@ depends=(
     curl
     decibels
     direnv
+    dkms
     docker
     docker-compose
     dockerfile-language-server
@@ -83,10 +85,10 @@ depends=(
     gnome-shell-extension-dash-to-dock
     gnome-shell-extension-dash-to-dock-git
     gnome-shell-extension-gsconnect
-    gnome-shell-extension-system-monitor-next-git
+    gnome-shell-extension-gtile-git
+    gnome-shell-extension-tray-icons-reloaded-git
     gnome-software
     gnome-system-monitor
-    gnome-terminal
     gnome-text-editor
     gnome-tour
     gnome-tweaks
@@ -125,8 +127,10 @@ depends=(
     keepassxc
     libpulse
     libva-intel-driver
+    libva-nvidia-driver
     linux
     linux-firmware
+    linux-headers
     linux-lts-headers
     loupe
     lua-language-server
@@ -151,6 +155,7 @@ depends=(
     notion-calendar-electron
     npm
     ntfs-3g
+    nvidia-dkms
     nvim-lazy
     obsidian
     obs-studio
