@@ -2,7 +2,7 @@
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
 last-window-maximised=false
-last-window-size=(960, 294)
+last-window-size=(631, 811)
 use-system-font=false
 
 [org/gnome/Showtime/State]
@@ -78,7 +78,7 @@ show-battery-percentage=true
 autorun-never=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -119,6 +119,9 @@ application-id='org.gnome.Software.desktop'
 [org/gnome/desktop/notifications/application/org-keepassxc-keepassxc]
 application-id='org.keepassxc.KeePassXC.desktop'
 
+[org/gnome/desktop/notifications/application/steam]
+application-id='steam.desktop'
+
 [org/gnome/desktop/notifications/application/unityhub]
 application-id='unityhub.desktop'
 
@@ -143,7 +146,7 @@ close=['<Shift><Super>q']
 minimize=['<Super>h']
 
 [org/gnome/desktop/wm/preferences]
-button-layout='appmenu:close'
+button-layout='appmenu:minimize,maximize,close'
 focus-mode='sloppy'
 
 [org/gnome/epiphany/state]
