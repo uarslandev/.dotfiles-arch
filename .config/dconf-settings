@@ -2,8 +2,11 @@
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
 last-window-maximised=false
-last-window-size=(732, 528)
+last-window-size=(960, 294)
 use-system-font=false
+
+[org/gnome/Showtime/State]
+is-maximized=false
 
 [org/gnome/calculator]
 base=10
@@ -15,7 +18,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='keyboard'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -66,10 +69,16 @@ xkb-options=['terminate:ctrl_alt_bksp']
 accent-color='red'
 color-scheme='prefer-dark'
 enable-hot-corners=false
+font-antialiasing='grayscale'
+gtk-theme='Adwaita-dark'
+icon-theme='Adwaita'
 show-battery-percentage=true
 
+[org/gnome/desktop/media-handling]
+autorun-never=true
+
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -89,6 +98,9 @@ application-id='org.gnome.Characters.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-console]
 application-id='org.gnome.Console.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-epiphany]
+application-id='org.gnome.Epiphany.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
 application-id='org.gnome.Evolution-alarm-notify.desktop'
 
@@ -98,6 +110,9 @@ application-id='org.gnome.Nautilus.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-settings]
 application-id='org.gnome.Settings.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-showtime]
+application-id='org.gnome.Showtime.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
@@ -106,6 +121,9 @@ application-id='org.keepassxc.KeePassXC.desktop'
 
 [org/gnome/desktop/notifications/application/unityhub]
 application-id='unityhub.desktop'
+
+[org/gnome/desktop/notifications/application/vesktop]
+application-id='vesktop.desktop'
 
 [org/gnome/desktop/peripherals/touchpad]
 two-finger-scrolling-enabled=true
@@ -125,7 +143,7 @@ close=['<Shift><Super>q']
 minimize=['<Super>h']
 
 [org/gnome/desktop/wm/preferences]
-button-layout='close,minimize,maximize:appmenu'
+button-layout='appmenu:close'
 focus-mode='sloppy'
 
 [org/gnome/epiphany/state]
@@ -153,8 +171,9 @@ default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(935, 1048)
 initial-size-file-chooser=(890, 550)
+maximized=false
 
 [org/gnome/nm-applet/eap/100baaa0-1c2f-4299-bc83-3d7cba8e36ff]
 ignore-ca-cert=false
@@ -173,7 +192,7 @@ ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/portal/filechooser/obsidian]
-last-folder-path='/home/umut/Repos/obsidian-vault'
+last-folder-path='/home/user/Repos/obsidian-vault'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/umut/Downloads'
@@ -185,8 +204,12 @@ night-light-schedule-automatic=false
 donation-reminder-last-shown=int64 1765373337172851
 
 [org/gnome/settings-daemon/plugins/media-keys]
+calculator=['<Super>c']
 control-center=['<Super>s']
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+email=['<Super>m']
+home=['<Super>h']
+www=['<Super>w']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Super>o'
@@ -194,7 +217,7 @@ command='keepassxc'
 name='keepassxc'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding=''
+binding='<Super>e'
 command='nautilus'
 name='nautilus'
 
@@ -205,9 +228,11 @@ name='kgx'
 
 [org/gnome/shell]
 app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'org.gnome.SimpleScan.desktop': <{'position': <5>}>, 'org.gnome.Settings.desktop': <{'position': <6>}>, 'bssh.desktop': <{'position': <7>}>, 'org.gnome.Showtime.desktop': <{'position': <8>}>, 'org.gnome.Snapshot.desktop': <{'position': <9>}>, 'org.gnome.Characters.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.gnome.Console.desktop': <{'position': <13>}>, 'org.gnome.Tour.desktop': <{'position': <14>}>, 'org.gnome.Yelp.desktop': <{'position': <15>}>, 'bvnc.desktop': <{'position': <16>}>, 'avahi-discover.desktop': <{'position': <17>}>, 'com.usebottles.bottles.desktop': <{'position': <18>}>, 'btop.desktop': <{'position': <19>}>, 'carla.desktop': <{'position': <20>}>, 'carla-control.desktop': <{'position': <21>}>}, {'cmake-gui.desktop': <{'position': <0>}>, 'org.gnome.Evince.desktop': <{'position': <1>}>, 'electron37.desktop': <{'position': <2>}>, 'io.element.Element.desktop': <{'position': <3>}>, 'org.gnome.Extensions.desktop': <{'position': <4>}>, 'guitarix.desktop': <{'position': <5>}>, 'lstopo.desktop': <{'position': <6>}>, 'htop.desktop': <{'position': <7>}>, 'imhex.desktop': <{'position': <8>}>, 'jdownloader.desktop': <{'position': <9>}>, 'jetbrains-toolbox.desktop': <{'position': <10>}>, 'org.kde.kdeconnect.app.desktop': <{'position': <11>}>, 'org.kde.kdeconnect.nonplasma.desktop': <{'position': <12>}>, 'org.kde.kdeconnect.sms.desktop': <{'position': <13>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <14>}>, 'cups.desktop': <{'position': <15>}>, 'mpv.desktop': <{'position': <16>}>, 'com.obsproject.Studio.desktop': <{'position': <17>}>, 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop': <{'position': <18>}>, 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop': <{'position': <19>}>}, {'jconsole-java-openjdk.desktop': <{'position': <0>}>, 'jshell-java-openjdk.desktop': <{'position': <1>}>, 'pcsx2.desktop': <{'position': <2>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <3>}>, 'org.rncbc.qjackctl.desktop': <{'position': <4>}>, 'qv4l2.desktop': <{'position': <5>}>, 'qvidcap.desktop': <{'position': <6>}>, 'ranger.desktop': <{'position': <7>}>, 'reclass.net.desktop': <{'position': <8>}>, 'steam.desktop': <{'position': <9>}>, 'teamspeak.desktop': <{'position': <10>}>, 'torbrowser.desktop': <{'position': <11>}>, 'torbrowser-settings.desktop': <{'position': <12>}>, 'ventoy.desktop': <{'position': <13>}>, 'vesktop.desktop': <{'position': <14>}>, 'vim.desktop': <{'position': <15>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <16>}>, 'winetricks.desktop': <{'position': <17>}>, 'youtube-music-desktop-app.desktop': <{'position': <18>}>, 'org.zealdocs.zeal.desktop': <{'position': <19>}>, 'org.gnome.Terminal.desktop': <{'position': <20>}>}, {'Zoom.desktop': <{'position': <0>}>, 'zotero.desktop': <{'position': <1>}>, 'org.gnome.Epiphany.desktop': <{'position': <2>}>, 'org.gnome.Calendar.desktop': <{'position': <3>}>, 'org.gnome.Nautilus.desktop': <{'position': <4>}>, 'org.gnome.Software.desktop': <{'position': <5>}>, 'org.gnome.TextEditor.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>}]
-disabled-extensions=@as []
-enabled-extensions=['arcmenu@arcmenu.com', 'caffeine@patapon.info', 'clipboard-indicator@tudmotu.com', 'gsconnect@andyholmes.github.io', 'system-monitor-next@paradoxxx.zero.gmail.com', 'blur-my-shell@aunetx', 'dash-to-dock@micxgx.gmail.com']
+disable-user-extensions=false
+disabled-extensions=['system-monitor-next@paradoxxx.zero.gmail.com']
+enabled-extensions=['arcmenu@arcmenu.com', 'caffeine@patapon.info', 'clipboard-indicator@tudmotu.com', 'gsconnect@andyholmes.github.io', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'gTile@vibou']
 favorite-apps=['firefox.desktop', 'anki.desktop', 'blender.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'nvim.desktop', 'ida-free.desktop', 'code.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'unityhub.desktop', 'obsidian.desktop', 'notion.desktop', 'notion-calendar-electron.desktop', 'org.mozilla.Thunderbird.desktop']
+remember-mount-password=false
 welcome-dialog-last-shown-version='49.2'
 
 [org/gnome/shell/extensions/arcmenu]
@@ -220,7 +245,7 @@ menu-button-icon='Distro_Icon'
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
-recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop']
+recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop']
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
@@ -249,8 +274,9 @@ brightness=0.59999999999999998
 sigma=30
 
 [org/gnome/shell/extensions/caffeine]
-cli-toggle=false
-indicator-position-max=0
+cli-toggle=true
+indicator-position-max=4
+user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
 toggle-menu=['<Shift><Super>p']
@@ -268,14 +294,20 @@ preferred-monitor=-2
 preferred-monitor-by-connector='eDP-1'
 
 [org/gnome/shell/extensions/gsconnect]
+devices=@as []
 enabled=false
 missing-openssl=false
 name='work'
+
+[org/gnome/shell/extensions/gtile]
+follow-cursor=false
+show-toggle-tiling=['<Control>equal']
 
 [org/gnome/shell/extensions/system-monitor-next-applet]
 settings-schema-version=1
 
 [org/gnome/shell/keybindings]
+toggle-message-tray=@as []
 toggle-quick-settings=@as []
 
 [org/gnome/shell/world-clocks]
@@ -303,5 +335,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(26, 23)
+window-position=(217, 83)
 window-size=(1203, 881)
