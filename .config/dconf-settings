@@ -15,7 +15,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='network'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -282,7 +282,7 @@ toggle-quick-settings=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1765370493
+check-timestamp=int64 1765465999
 first-run=false
 
 [org/gnome/tweaks]

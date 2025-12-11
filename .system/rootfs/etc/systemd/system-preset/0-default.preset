@@ -6,3 +6,4 @@ enable mongodb.service
 enable pipewire
 enable pipewire-pulse
 enable wireplumber
+enable NetworkManager
