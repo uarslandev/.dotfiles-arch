@@ -1,4 +1,4 @@
-enable NetworkManager
+enable NetworkManager.service
 enable bluetooth.service
 enable cups.service
 enable docker.service
