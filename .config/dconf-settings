@@ -2,7 +2,7 @@
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
 last-window-maximised=false
-last-window-size=(631, 811)
+last-window-size=(991, 811)
 use-system-font=false
 
 [org/gnome/Showtime/State]
@@ -18,7 +18,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='display'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -78,13 +78,16 @@ show-battery-percentage=true
 autorun-never=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel']
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
 
 [org/gnome/desktop/notifications/application/gnome-about-panel]
 application-id='gnome-about-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
 
 [org/gnome/desktop/notifications/application/io-element-element]
 application-id='io.element.Element.desktop'
@@ -174,7 +177,7 @@ default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(935, 1048)
+initial-size=(935, 832)
 initial-size-file-chooser=(890, 550)
 maximized=false
 
@@ -248,7 +251,7 @@ menu-button-icon='Distro_Icon'
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
-recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop']
+recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop', 'Path of Exile 2.desktop']
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
@@ -278,7 +281,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=1
+indicator-position-max=2
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
