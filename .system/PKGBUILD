@@ -241,6 +241,7 @@ depends=(
     zip
     zoom
     zotero-bin
+    zram-generator
     zsh
     zsh-autosuggestions
     zsh-completions

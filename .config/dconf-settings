@@ -21,7 +21,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='online-accounts'
+last-panel='display'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -212,7 +212,7 @@ ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/portal/filechooser/obsidian]
-last-folder-path='/home/user/Repos/obsidian-vault'
+last-folder-path='/home/umut/Repos/obsidian-vault'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/umut/Downloads'
@@ -298,7 +298,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=1
+indicator-position-max=2
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
