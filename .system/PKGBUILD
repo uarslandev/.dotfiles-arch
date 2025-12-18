@@ -82,7 +82,6 @@ depends=(
     gnome-shell-extension-blur-my-shell
     gnome-shell-extension-caffeine
     gnome-shell-extension-clipboard-indicator
-    gnome-shell-extension-dash-to-dock
     gnome-shell-extension-dash-to-dock-git
     gnome-shell-extension-gsconnect
     gnome-shell-extension-gtile-git

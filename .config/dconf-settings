@@ -2,11 +2,14 @@
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
 last-window-maximised=false
-last-window-size=(991, 811)
+last-window-size=(732, 514)
 use-system-font=false
 
 [org/gnome/Showtime/State]
 is-maximized=false
+
+[org/gnome/TextEditor]
+last-save-directory='file:///home/umut/Desktop'
 
 [org/gnome/calculator]
 base=10
@@ -18,7 +21,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='online-accounts'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -78,7 +81,10 @@ show-battery-percentage=true
 autorun-never=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel', 'code']
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -197,11 +203,22 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/c33ca6ba-7dd5-4df2-bb96-0e5ee66226e1]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/e3b87c9b-6ff6-4b06-8721-235a29c7ea84]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
 [org/gnome/portal/filechooser/obsidian]
 last-folder-path='/home/user/Repos/obsidian-vault'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/umut/Downloads'
+
+[org/gnome/portal/filechooser/org.gnome.TextEditor]
+last-folder-path='/home/umut/Desktop'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-schedule-automatic=false
@@ -247,7 +264,7 @@ arcmenu-hotkey-overlay-key-enabled=true
 dash-to-panel-standalone=false
 distro-icon=6
 hotkey-open-primary-monitor=false
-menu-button-icon='Distro_Icon'
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-arch-symbolic.svg'
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
@@ -255,7 +272,7 @@ recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
-update-notifier-project-version=69
+update-notifier-project-version=70
 
 [org/gnome/shell/extensions/blur-my-shell]
 settings-version=2
@@ -281,7 +298,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=2
+indicator-position-max=1
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
@@ -320,7 +337,7 @@ toggle-quick-settings=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1765465999
+check-timestamp=int64 1766061679
 first-run=false
 
 [org/gnome/tweaks]
@@ -341,5 +358,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(217, 83)
+window-position=(167, 32)
 window-size=(1203, 881)
