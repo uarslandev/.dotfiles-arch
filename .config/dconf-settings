@@ -21,7 +21,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='wifi'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -62,6 +62,9 @@ play-sound=true
 duration-seconds=uint32 300
 interval-seconds=uint32 1800
 play-sound=true
+
+[org/gnome/desktop/file-sharing]
+require-password='always'
 
 [org/gnome/desktop/input-sources]
 mru-sources=[('xkb', 'us')]
@@ -169,7 +172,7 @@ auto-open-schemes=[('https://accounts.google.com', 'com.googleusercontent.apps.4
 migrated=true
 
 [org/gnome/evolution-data-server/calendar]
-reminders-past=["4da1d02d6f65f9b12da2e5fc2f508d365d914f3a\n880016a83145427df753fa547712016f58075c3e\t20251212\n1765530000\n1765497600\n1765584000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251212\r\nDTEND;VALUE=DATE:20251213\r\nRRULE:FREQ=YEARLY;BYMONTHDAY=12;BYMONTH=12\r\nDTSTAMP:20250211T090355Z\r\nORGANIZER;CN=Unknown Organizer:mailto:\r\n unknownorganizer@calendar.google.com\r\nUID:\r\n cgqj8dj565i62bb3c4r68b9k69h64b9pc9j30bb571hm4cb171gj8dj664@google.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=uarslancs@gmail.com;X-NUM-GUESTS=0:mailto:uarslancs@gmail.com\r\nCLASS:PRIVATE\r\nCREATED:20241119T162447Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20250211T090355Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Zach's birthday\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63874947835\r\nRECURRENCE-ID;VALUE=DATE:20251212\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT9H\r\nX-EVOLUTION-ALARM-UID:880016a83145427df753fa547712016f58075c3e\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P6DT15H\r\nX-EVOLUTION-ALARM-UID:dc584c78a5b68d159372d4d5218914924d492b15\r\nEND:VALARM\r\nEND:VEVENT\r\n", "bf9d1864b1d964c3e7b5d7811f7074c25f512a4e\n5f1a882e6a11f74f43dcb1ff274bbe5e780889c2\t20251211\n1765443600\n1765411200\n1765497600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251211\r\nDTEND;VALUE=DATE:20251212\r\nRRULE:FREQ=YEARLY;BYMONTHDAY=11;BYMONTH=12\r\nDTSTAMP:20250211T090355Z\r\nORGANIZER;CN=Unknown Organizer:mailto:\r\n unknownorganizer@calendar.google.com\r\nUID:\r\n 68oj4cpg68rjcb9p6pi3cb9k6sp38b9pcgp66bb56gq34cpn69j38d9g74@google.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=uarslancs@gmail.com;X-NUM-GUESTS=0:mailto:uarslancs@gmail.com\r\nCLASS:PRIVATE\r\nCREATED:20241111T203349Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20250211T090355Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Katha Geburtstag's birthday\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63874947835\r\nRECURRENCE-ID;VALUE=DATE:20251211\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT9H\r\nX-EVOLUTION-ALARM-UID:5f1a882e6a11f74f43dcb1ff274bbe5e780889c2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P6DT15H\r\nX-EVOLUTION-ALARM-UID:d8a4cd95e91bd557e11d34a6a34e5df014e40e93\r\nEND:VALARM\r\nEND:VEVENT\r\n"]
+reminders-past=["4da1d02d6f65f9b12da2e5fc2f508d365d914f3a\n880016a83145427df753fa547712016f58075c3e\t20251212\n1765530000\n1765497600\n1765584000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251212\r\nDTEND;VALUE=DATE:20251213\r\nRRULE:FREQ=YEARLY;BYMONTHDAY=12;BYMONTH=12\r\nDTSTAMP:20250211T090355Z\r\nORGANIZER;CN=Unknown Organizer:mailto:\r\n unknownorganizer@calendar.google.com\r\nUID:\r\n cgqj8dj565i62bb3c4r68b9k69h64b9pc9j30bb571hm4cb171gj8dj664@google.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=uarslancs@gmail.com;X-NUM-GUESTS=0:mailto:uarslancs@gmail.com\r\nCLASS:PRIVATE\r\nCREATED:20241119T162447Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20250211T090355Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Zach's birthday\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63874947835\r\nRECURRENCE-ID;VALUE=DATE:20251212\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT9H\r\nX-EVOLUTION-ALARM-UID:880016a83145427df753fa547712016f58075c3e\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P6DT15H\r\nX-EVOLUTION-ALARM-UID:dc584c78a5b68d159372d4d5218914924d492b15\r\nEND:VALARM\r\nEND:VEVENT\r\n"]
 
 [org/gnome/mutter]
 overlay-key='Super'
@@ -199,6 +202,14 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/1e3d2107-a938-4272-a2aa-d99a526576e2]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/59da9393-5dab-4d0b-9a51-88d41100cde5]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/8d1727a1-88e6-43d5-9c3c-475ca6f7c8a3]
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
@@ -215,7 +226,7 @@ ignore-phase2-ca-cert=false
 last-folder-path='/home/umut/Repos/obsidian-vault'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/umut/Downloads'
+last-folder-path='/run/media/umut/5deb61eb-a980-4935-89c8-af6970a43e4d'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/umut/Desktop'
@@ -248,6 +259,12 @@ name='nautilus'
 binding='<Super>Return'
 command='kgx'
 name='kgx'
+
+[org/gnome/settings-daemon/plugins/sharing/gnome-user-share-webdav]
+enabled-connections=['fa7ef46a-50fa-4b92-bd0f-b3de6ad15080']
+
+[org/gnome/settings-daemon/plugins/sharing/rygel]
+enabled-connections=@as []
 
 [org/gnome/shell]
 app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'org.gnome.SimpleScan.desktop': <{'position': <5>}>, 'org.gnome.Settings.desktop': <{'position': <6>}>, 'bssh.desktop': <{'position': <7>}>, 'org.gnome.Showtime.desktop': <{'position': <8>}>, 'org.gnome.Snapshot.desktop': <{'position': <9>}>, 'org.gnome.Characters.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.gnome.Console.desktop': <{'position': <13>}>, 'org.gnome.Tour.desktop': <{'position': <14>}>, 'org.gnome.Yelp.desktop': <{'position': <15>}>, 'bvnc.desktop': <{'position': <16>}>, 'avahi-discover.desktop': <{'position': <17>}>, 'com.usebottles.bottles.desktop': <{'position': <18>}>, 'btop.desktop': <{'position': <19>}>, 'carla.desktop': <{'position': <20>}>, 'carla-control.desktop': <{'position': <21>}>}, {'cmake-gui.desktop': <{'position': <0>}>, 'org.gnome.Evince.desktop': <{'position': <1>}>, 'electron37.desktop': <{'position': <2>}>, 'io.element.Element.desktop': <{'position': <3>}>, 'org.gnome.Extensions.desktop': <{'position': <4>}>, 'guitarix.desktop': <{'position': <5>}>, 'lstopo.desktop': <{'position': <6>}>, 'htop.desktop': <{'position': <7>}>, 'imhex.desktop': <{'position': <8>}>, 'jdownloader.desktop': <{'position': <9>}>, 'jetbrains-toolbox.desktop': <{'position': <10>}>, 'org.kde.kdeconnect.app.desktop': <{'position': <11>}>, 'org.kde.kdeconnect.nonplasma.desktop': <{'position': <12>}>, 'org.kde.kdeconnect.sms.desktop': <{'position': <13>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <14>}>, 'cups.desktop': <{'position': <15>}>, 'mpv.desktop': <{'position': <16>}>, 'com.obsproject.Studio.desktop': <{'position': <17>}>, 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop': <{'position': <18>}>, 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop': <{'position': <19>}>}, {'jconsole-java-openjdk.desktop': <{'position': <0>}>, 'jshell-java-openjdk.desktop': <{'position': <1>}>, 'pcsx2.desktop': <{'position': <2>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <3>}>, 'org.rncbc.qjackctl.desktop': <{'position': <4>}>, 'qv4l2.desktop': <{'position': <5>}>, 'qvidcap.desktop': <{'position': <6>}>, 'ranger.desktop': <{'position': <7>}>, 'reclass.net.desktop': <{'position': <8>}>, 'steam.desktop': <{'position': <9>}>, 'teamspeak.desktop': <{'position': <10>}>, 'torbrowser.desktop': <{'position': <11>}>, 'torbrowser-settings.desktop': <{'position': <12>}>, 'ventoy.desktop': <{'position': <13>}>, 'vesktop.desktop': <{'position': <14>}>, 'vim.desktop': <{'position': <15>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <16>}>, 'winetricks.desktop': <{'position': <17>}>, 'youtube-music-desktop-app.desktop': <{'position': <18>}>, 'org.zealdocs.zeal.desktop': <{'position': <19>}>, 'org.gnome.Terminal.desktop': <{'position': <20>}>}, {'Zoom.desktop': <{'position': <0>}>, 'zotero.desktop': <{'position': <1>}>, 'org.gnome.Epiphany.desktop': <{'position': <2>}>, 'org.gnome.Calendar.desktop': <{'position': <3>}>, 'org.gnome.Nautilus.desktop': <{'position': <4>}>, 'org.gnome.Software.desktop': <{'position': <5>}>, 'org.gnome.TextEditor.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>}]
@@ -298,7 +315,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=2
+indicator-position-max=1
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
@@ -337,7 +354,7 @@ toggle-quick-settings=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1766061679
+check-timestamp=int64 1766139293
 first-run=false
 
 [org/gnome/tweaks]
