@@ -21,7 +21,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='power'
+last-panel='wifi'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -226,7 +226,7 @@ ignore-phase2-ca-cert=false
 last-folder-path='/home/umut/Repos/obsidian-vault'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
-last-folder-path='/run/media/user/5deb61eb-a980-4935-89c8-af6970a43e4d'
+last-folder-path='/home/user/Downloads'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/umut/Desktop'
@@ -361,8 +361,16 @@ first-run=false
 show-extensions-notice=false
 
 [org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
 show-hidden=false
+sidebar-width=140
+sort-column='name'
 sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(867, 326)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
