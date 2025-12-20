@@ -236,7 +236,6 @@ depends=(
     xorg-xinit
     yarn
     yelp
-    ytmdesktop-git
     zeal
     zip
     zoom
