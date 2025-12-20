@@ -315,7 +315,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=2
+indicator-position-max=1
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
