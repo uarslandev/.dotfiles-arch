@@ -1,7 +1,13 @@
+[com/usebottles/bottles]
+show-sandbox-warning=false
+startup-view='page_list'
+window-height=688
+window-width=880
+
 [org/gnome/Console]
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
-last-window-maximised=false
+last-window-maximised=true
 last-window-size=(732, 514)
 use-system-font=false
 
@@ -21,7 +27,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='online-accounts'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -84,10 +90,13 @@ show-battery-percentage=true
 autorun-never=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel', 'code']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel', 'code', 'com-usebottles-bottles']
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-usebottles-bottles]
+application-id='com.usebottles.bottles.desktop'
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -222,6 +231,9 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
+[org/gnome/portal/filechooser/com.usebottles.bottles]
+last-folder-path='/home/user/Downloads'
+
 [org/gnome/portal/filechooser/obsidian]
 last-folder-path='/home/umut/Repos/obsidian-vault'
 
@@ -285,7 +297,7 @@ menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
-recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop', 'Path of Exile 2.desktop']
+recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop', 'Path of Exile 2.desktop', 'ventoy.desktop', 'code.desktop', 'Zoom.desktop', 'zotero.desktop', 'wine-Programs-Grinding Gear Games-Path of Exile 2.desktop']
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
@@ -315,7 +327,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=1
+indicator-position-max=0
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
@@ -354,7 +366,7 @@ toggle-quick-settings=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1766247220
+check-timestamp=int64 1766319277
 first-run=false
 
 [org/gnome/tweaks]
@@ -383,5 +395,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(167, 32)
+window-position=(26, 23)
 window-size=(1203, 881)
