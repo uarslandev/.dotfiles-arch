@@ -7,7 +7,7 @@ window-width=880
 [org/gnome/Console]
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
-last-window-maximised=true
+last-window-maximised=false
 last-window-size=(732, 514)
 use-system-font=false
 
@@ -27,7 +27,7 @@ window-maximized=false
 window-size=(360, 616)
 
 [org/gnome/control-center]
-last-panel='online-accounts'
+last-panel='sound'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -80,17 +80,18 @@ xkb-options=['terminate:ctrl_alt_bksp']
 [org/gnome/desktop/interface]
 accent-color='red'
 color-scheme='prefer-dark'
+cursor-theme='vimix-kanagawa-cursors-lotus'
 enable-hot-corners=false
 font-antialiasing='grayscale'
-gtk-theme='Adwaita-dark'
-icon-theme='Adwaita'
+gtk-theme='Kanagawa-Purple-Dark'
+icon-theme='Kanagawa'
 show-battery-percentage=true
 
 [org/gnome/desktop/media-handling]
 autorun-never=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel', 'code', 'com-usebottles-bottles']
+application-children=['org-gnome-software', 'org-gnome-settings', 'firefox', 'org-gnome-console', 'org-gnome-nautilus', 'gnome-about-panel', 'org-keepassxc-keepassxc', 'jetbrains-toolbox', 'org-gnome-characters', 'unityhub', 'io-element-element', 'org-gnome-evolution-alarm-notify', 'vesktop', 'steam', 'gnome-power-panel', 'code', 'com-usebottles-bottles', 'org-mozilla-thunderbird']
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
@@ -140,6 +141,9 @@ application-id='org.gnome.Software.desktop'
 [org/gnome/desktop/notifications/application/org-keepassxc-keepassxc]
 application-id='org.keepassxc.KeePassXC.desktop'
 
+[org/gnome/desktop/notifications/application/org-mozilla-thunderbird]
+application-id='org.mozilla.Thunderbird.desktop'
+
 [org/gnome/desktop/notifications/application/steam]
 application-id='steam.desktop'
 
@@ -162,6 +166,10 @@ secondary-color='#000000'
 [org/gnome/desktop/search-providers]
 sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
 
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
 [org/gnome/desktop/wm/keybindings]
 close=['<Shift><Super>q']
 minimize=['<Super>h']
@@ -182,6 +190,18 @@ migrated=true
 
 [org/gnome/evolution-data-server/calendar]
 reminders-past=@as []
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-height=720
+window-width=800
+
+[org/gnome/gnome-system-monitor/proctree]
+col-26-visible=false
+col-26-width=0
 
 [org/gnome/mutter]
 overlay-key='Super'
@@ -297,7 +317,7 @@ menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
-recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Counter-Strike 2.desktop', 'Path of Exile 2.desktop', 'ventoy.desktop', 'code.desktop', 'Zoom.desktop', 'zotero.desktop', 'wine-Programs-Grinding Gear Games-Path of Exile 2.desktop']
+recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Path of Exile 2.desktop', 'ventoy.desktop', 'code.desktop', 'Zoom.desktop', 'zotero.desktop', 'wine-Programs-Grinding Gear Games-Path of Exile 2.desktop', 'heroic.desktop']
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
@@ -368,6 +388,7 @@ locations=@av []
 [org/gnome/software]
 check-timestamp=int64 1766319277
 first-run=false
+flatpak-purge-timestamp=int64 1766326458
 
 [org/gnome/tweaks]
 show-extensions-notice=false
@@ -387,7 +408,7 @@ window-size=(867, 326)
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=167
