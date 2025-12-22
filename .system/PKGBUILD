@@ -14,28 +14,43 @@ sha512sums=('SKIP')
 #startPackages
 depends=(
     7zip
+    accessibility-inspector
     adobe-source-han-sans-jp-fonts
+    akonadi-calendar-tools
+    akonadiconsole
+    alligator
     amd-ucode
+    angelfish
     angular-cli
     ani-cli
     anki-bin
+    arianna
     ark
+    artikulate
+    audex
+    audiotube
     aurorae
     base
     base-devel
     bash-language-server
     blender
+    blinken
     bluedevil
     bluez
     bluez-utils
+    bomber
     bottles
+    bovo
     breeze
     breeze-gtk
     breeze-plymouth
     btop
+    calligra
+    cantor
     carla
     ceserver
     cheat-engine-zh
+    colord-kde
     csharp-ls
     cups
     cups-pdf
@@ -47,27 +62,36 @@ depends=(
     docker-compose
     dockerfile-language-server
     dolphin
+    dolphin-plugins
     dotnet-sdk
+    dragon
     drkonqi
     efibootmgr
     element-desktop
+    elisa
+    falkon
     fd
     firefox
     flatpak-kcm
+    francis
     fzf
     fzf-tab-git
     gamescope
     gdb
     ghidra
+    ghostwriter
     git
     git-delta
     git-filter-repo
     github-cli
     git-secret
     gnome-tweaks
+    granatier
+    grantlee-editor
     graphql-lsp
     gst-plugin-pipewire
     guitarix
+    gwenview
     gxplugins-lv2-git
     heroic-games-launcher-bin
     htop
@@ -76,37 +100,141 @@ depends=(
     intel-compute-runtime
     intel-media-driver
     intel-ucode
+    isoimagewriter
+    itinerary
     iwd
     jdownloader2
     jetbrains-toolbox
+    juk
+    k3b
     k9s
     kaccounts-providers
     kactivitymanagerd
+    kajongg
+    kalarm
+    kalgebra
+    kalk
+    kalm
+    kalzium
+    kamoso
     kanagawa-gtk-theme-git
     kanagawa-icon-theme-git
+    kanagram
+    kapman
+    kapptemplate
+    kasts
+    katomic
+    kbackup
+    kblackbox
+    kblocks
+    kbounce
+    kbreakout
+    kbruch
+    kcachegrind
+    kcalc
+    kcharselect
+    kclock
+    kcolorchooser
+    kcron
+    kdebugsettings
     kde-cli-tools
     kdeconnect
     kdecoration
+    kde-dev-scripts
+    kde-dev-utils
     kde-gtk-config
+    kde-inotify-survey
     kdenetwork-filesharing
+    kdenlive
     kdeplasma-addons
+    kdesdk-kio
+    kdesdk-thumbnailers
+    kdevelop-php
+    kdevelop-python
+    kdiamond
     keepassxc
+    keysmith
+    kfind
+    kfourinline
     kgamma
+    kgeography
+    kget
     kglobalacceld
+    kgoldrunner
+    kgpg
+    khangman
+    khelpcenter
+    kig
+    kigo
+    killbots
+    kimagemapeditor
     kinfocenter
     kio-gdrive
+    kio-zeroconf
+    kirigami-gallery
+    kiriki
+    kiten
+    kjournald
+    kjumpingcube
+    klettres
+    klickety
+    klines
+    kmag
+    kmahjongg
     kmenuedit
+    kmines
+    kmix
+    kmousetool
+    kmouth
+    kmplot
+    knavalbattle
+    knetwalk
+    knights
     knighttime
+    koko
+    kolf
+    kollision
+    kolourpaint
+    kongress
+    konqueror
+    konquest
+    kontact
+    kontrast
+    konversation
+    kpat
     kpipewire
+    krdc
     krdp
+    krecorder
+    kreversi
+    krfb
+    kruler
     kscreen
     kscreenlocker
+    kshisen
+    ksirk
+    ksnakeduel
+    kspaceduel
+    ksquares
     ksshaskpass
+    ksudoku
+    ksystemlog
     ksystemstats
+    kteatime
+    ktimer
+    ktorrent
+    ktouch
+    ktrip
+    ktuberling
+    kturtle
+    kubrick
     kwallet-pam
+    kwave
     kwayland
+    kweather
     kwin
     kwin-x11
+    kwordquiz
     kwrited
     layer-shell-qt
     lib32-nvidia-580xx-utils
@@ -121,18 +249,26 @@ depends=(
     linux-firmware
     linux-headers
     linux-lts-headers
+    lokalize
     lsfg-vk
+    lskat
     lua-language-server
     lutris
     man-db
     mangohud
     man-pages
+    marble
+    markdownpart
+    massif-visualizer
     maven
+    merkuro
     mesa-utils
     milou
+    minuet
     mongodb-bin
     mongosh-bin
     nano
+    neochat
     neovim
     net-tools
     networkmanager
@@ -151,14 +287,19 @@ depends=(
     obs-studio
     ocean-sound-theme
     oh-my-zsh-git
+    okular
     openssh
     otf-aurulent-nerd
     oxygen
     oxygen-sounds
+    palapeli
+    parley
+    partitionmanager
     paru
     paru-debug
     pavucontrol
     pcsx2-latest-bin
+    picmi
     pipewire
     pipewire-alsa
     pipewire-docs
@@ -177,6 +318,7 @@ depends=(
     plasma-sdk
     plasma-systemmonitor
     plasma-thunderbolt
+    plasmatube
     plasma-vault
     plasma-welcome
     plasma-workspace
@@ -184,6 +326,7 @@ depends=(
     plymouth-kcm
     polkit-kde-agent
     powerdevil
+    poxml
     print-manager
     proton-ge-custom-bin
     pyright
@@ -193,31 +336,42 @@ depends=(
     qbittorrent
     qjackctl
     qqc2-breeze-style
+    qrca
     ranger
     rar
     rclone
     reclass.net-bin
     reflector
     ripgrep
+    rocs
     rust
     samba
     sddm-kcm
+    skanlite
+    skanpage
+    skladnik
     smartmontools
     sof-firmware
     spectacle
     sql-language-server
     sshfs
     steam
+    step
+    svgpart
+    sweeper
     systemd
     systemsettings
     teamspeak
+    telly-skout
     thunderbird
     tmux
+    tokodon
     torbrowser-launcher
     tree
     ttf-nerd-fonts-symbols
     typescript-language-server
     ufw
+    umbrello
     unityhub
     unzip
     ventoy-bin
@@ -245,6 +399,7 @@ depends=(
     xdotool
     xorg-server
     xorg-xinit
+    yakuake
     yarn
     zeal
     zip
@@ -261,25 +416,25 @@ depends=(
   #endPackages
 
   # Conditional NVIDIA packages
-if lspci | grep -i 'GeForce' >/dev/null; then
-    depends+=(mangohud nvidia-580xx-dkms nvidia-utils opencl-nvidia zerotier-one)
-fi
+  if lspci | grep -i 'GeForce' >/dev/null; then
+	  depends+=(mangohud nvidia-580xx-dkms nvidia-utils opencl-nvidia zerotier-one)
+  fi
 
 # Functions (user-provided — unchanged)
 paru() {
-    if ! pacman -Qq | grep -i paru &>/dev/null; then
-        git clone https://aur.archlinux.org/paru.git
-        pushd paru
-        makepkg -sif
-        popd
-        rm -rf paru
-    fi
+	if ! pacman -Qq | grep -i paru &>/dev/null; then
+		git clone https://aur.archlinux.org/paru.git
+		pushd paru
+		makepkg -sif
+		popd
+		rm -rf paru
+	fi
 }
 
 zsh() {
-    if [ "$(basename "$SHELL")" != "zsh" ]; then
-        chsh -s /usr/bin/zsh
-    fi
+	if [ "$(basename "$SHELL")" != "zsh" ]; then
+		chsh -s /usr/bin/zsh
+	fi
 }
 
 # Run user scripts
@@ -287,6 +442,6 @@ paru
 zsh
 
 package() {
-  tar -xf rootfs.tar -C "$pkgdir"
+	tar -xf rootfs.tar -C "$pkgdir"
 }
 

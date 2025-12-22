@@ -4,7 +4,7 @@ enable smb.service
 enable nmb.service
 enable cups.service
 enable bluetooth.service
-enable gdm.service
+enable sddm.service
 enable mongodb.service
 enable pipewire
 enable pipewire-pulse
