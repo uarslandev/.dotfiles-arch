@@ -1,0 +1,3 @@
+[General]
+Certificate=/home/user/.local/share/krdpserver/krdp.crt
+CertificateKey=/home/user/.local/share/krdpserver/krdp.key
