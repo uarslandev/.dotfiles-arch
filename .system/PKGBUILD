@@ -127,7 +127,6 @@ depends=(
     lib32-sdl2_image
     libpulse
     libva-intel-driver
-    libva-nvidia-driver
     linux
     linux-firmware
     linux-headers
@@ -155,7 +154,6 @@ depends=(
     notion-calendar-electron
     npm
     ntfs-3g
-    nvidia-dkms
     nvim-lazy
     obsidian
     obs-studio
@@ -252,7 +250,7 @@ depends=(
 
   # Conditional NVIDIA packages
 if lspci | grep -i 'GeForce' >/dev/null; then
-    depends+=(mangohud nvidia nvidia-settings opencl-nvidia zerotier-one)
+    depends+=(mangohud nvidia-580xx-dkms nvidia-utils opencl-nvidia zerotier-one)
 fi
 
 # Functions (user-provided — unchanged)

@@ -1,5 +1,7 @@
 enable NetworkManager.service
 enable docker.service
+enable smb.service
+enable nmb.service
 enable cups.service
 enable bluetooth.service
 enable gdm.service

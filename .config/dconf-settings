@@ -26,9 +26,17 @@ unit-category='angle'
 window-maximized=false
 window-size=(360, 616)
 
+[org/gnome/calendar]
+active-view='month'
+window-maximized=false
+window-size=(768, 600)
+
 [org/gnome/control-center]
 last-panel='sound'
 window-state=(980, 640, true)
+
+[org/gnome/desktop/a11y/applications]
+screen-reader-enabled=false
 
 [org/gnome/desktop/app-folders]
 folder-children=['System', 'Utilities', 'YaST', 'Pardus']
@@ -80,12 +88,22 @@ xkb-options=['terminate:ctrl_alt_bksp']
 [org/gnome/desktop/interface]
 accent-color='red'
 color-scheme='prefer-dark'
-cursor-theme='vimix-kanagawa-cursors-lotus'
+cursor-blink=true
+cursor-blink-time=1000
+cursor-size=24
+cursor-theme='vimix-kanagawa-cursors-wave'
+document-font-name='Noto Sans  10'
+enable-animations=true
 enable-hot-corners=false
 font-antialiasing='grayscale'
-gtk-theme='Kanagawa-Purple-Dark'
+font-name='Noto Sans  10'
+gtk-theme='Breeze'
 icon-theme='Kanagawa'
+monospace-font-name='Hack  10'
+scaling-factor=uint32 1
 show-battery-percentage=true
+text-scaling-factor=1.0
+toolbar-style='text'
 
 [org/gnome/desktop/media-handling]
 autorun-never=true
@@ -168,14 +186,14 @@ sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gno
 
 [org/gnome/desktop/sound]
 event-sounds=true
-theme-name='__custom'
+theme-name='freedesktop'
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Shift><Super>q']
 minimize=['<Super>h']
 
 [org/gnome/desktop/wm/preferences]
-button-layout='appmenu:minimize,maximize,close'
+button-layout='icon:minimize,maximize,close'
 focus-mode='sloppy'
 
 [org/gnome/epiphany/state]
@@ -317,7 +335,7 @@ menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/
 menu-layout='Runner'
 multi-monitor=true
 prefs-visible-page=0
-recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Path of Exile 2.desktop', 'ventoy.desktop', 'code.desktop', 'Zoom.desktop', 'zotero.desktop', 'wine-Programs-Grinding Gear Games-Path of Exile 2.desktop', 'heroic.desktop']
+recently-installed-apps=['org.gnome.Terminal.desktop', 'jetbrains-idea-41893b32-74a8-4366-a23e-1bab22b258fd.desktop', 'jetbrains-webstorm-dd4794b1-b345-4bbc-bfa6-549c7fbb41ea.desktop', 'jetbrains-pycharm-158292f3-81ec-4233-89d6-2a2c7b8f559f.desktop', 'jetbrains-studio-293ccb37-a0c5-4dde-bf54-05ace50e52b9.desktop', 'com.blackmagicdesign.resolve-Panels.desktop', 'com.blackmagicdesign.resolve-Installer.desktop', 'com.blackmagicdesign.resolve-CaptureLogs.desktop', 'com.blackmagicdesign.rawspeedtest.desktop', 'com.blackmagicdesign.rawplayer.desktop', 'com.blackmagicdesign.resolve-DaVinciRemoteMonitoring.desktop', 'com.blackmagicdesign.resolve.desktop', 'gimp.desktop', 'Path of Exile 2.desktop', 'ventoy.desktop', 'code.desktop', 'Zoom.desktop', 'zotero.desktop', 'wine-Programs-Grinding Gear Games-Path of Exile 2.desktop', 'heroic.desktop', 'com.valvesoftware.Steam.desktop', 'designer.desktop', 'kdesystemsettings.desktop', 'org.kde.plasma-systemmonitor.desktop', 'org.kde.plasma.lookandfeelexplorer.desktop', 'org.kde.discover.desktop', 'org.kde.plasma.themeexplorer.desktop', 'linguist.desktop', 'org.kde.iconexplorer.desktop', 'org.kde.spectacle.desktop', 'qdbusviewer.desktop', 'org.kde.plasmaengineexplorer.desktop', 'org.kde.drkonqi.coredump.gui.desktop', 'assistant.desktop']
 runner-position='Centered'
 runner-search-display-style='List'
 search-entry-border-radius=(true, 25)
@@ -347,7 +365,7 @@ sigma=30
 
 [org/gnome/shell/extensions/caffeine]
 cli-toggle=false
-indicator-position-max=0
+indicator-position-max=2
 user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
@@ -386,7 +404,7 @@ toggle-quick-settings=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1766319277
+check-timestamp=int64 1766393729
 first-run=false
 flatpak-purge-timestamp=int64 1766326458
 
@@ -396,7 +414,7 @@ show-extensions-notice=false
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 sidebar-width=140
 sort-column='name'
 sort-directories-first=false
