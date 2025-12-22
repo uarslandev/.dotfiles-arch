@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=18
+pkgrel=19
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -19,14 +19,19 @@ depends=(
     angular-cli
     ani-cli
     anki-bin
-    baobab
+    ark
+    aurorae
     base
     base-devel
     bash-language-server
     blender
+    bluedevil
     bluez
     bluez-utils
     bottles
+    breeze
+    breeze-gtk
+    breeze-plymouth
     btop
     carla
     ceserver
@@ -35,81 +40,36 @@ depends=(
     cups
     cups-pdf
     curl
-    decibels
     direnv
+    discover
     dkms
     docker
     docker-compose
     dockerfile-language-server
+    dolphin
     dotnet-sdk
+    drkonqi
     efibootmgr
     element-desktop
-    epiphany
     fd
     firefox
+    flatpak-kcm
     fzf
     fzf-tab-git
+    gamescope
     gdb
-    gdm
     ghidra
     git
     git-delta
     git-filter-repo
     github-cli
     git-secret
-    gnome-backgrounds
-    gnome-calculator
-    gnome-calendar
-    gnome-characters
-    gnome-clocks
-    gnome-color-manager
-    gnome-connections
-    gnome-console
-    gnome-contacts
-    gnome-control-center
-    gnome-disk-utility
-    gnome-font-viewer
-    gnome-keyring
-    gnome-logs
-    gnome-maps
-    gnome-menus
-    gnome-music
-    gnome-remote-desktop
-    gnome-session
-    gnome-settings-daemon
-    gnome-shell
-    gnome-shell-extension-arc-menu
-    gnome-shell-extension-blur-my-shell
-    gnome-shell-extension-caffeine
-    gnome-shell-extension-clipboard-indicator
-    gnome-shell-extension-dash-to-dock-git
-    gnome-shell-extension-gsconnect
-    gnome-shell-extension-gtile-git
-    gnome-shell-extension-tray-icons-reloaded-git
-    gnome-software
-    gnome-system-monitor
-    gnome-text-editor
-    gnome-tour
     gnome-tweaks
-    gnome-user-docs
-    gnome-user-share
-    gnome-weather
     graphql-lsp
-    grilo-plugins
     gst-plugin-pipewire
     guitarix
-    gvfs
-    gvfs-afc
-    gvfs-dnssd
-    gvfs-goa
-    gvfs-google
-    gvfs-gphoto2
-    gvfs-mtp
-    gvfs-nfs
-    gvfs-onedrive
-    gvfs-smb
-    gvfs-wsdd
     gxplugins-lv2-git
+    heroic-games-launcher-bin
     htop
     ida-free
     imhex-bin
@@ -120,29 +80,59 @@ depends=(
     jdownloader2
     jetbrains-toolbox
     k9s
+    kaccounts-providers
+    kactivitymanagerd
     kanagawa-gtk-theme-git
     kanagawa-icon-theme-git
+    kde-cli-tools
     kdeconnect
+    kdecoration
+    kde-gtk-config
+    kdenetwork-filesharing
+    kdeplasma-addons
     keepassxc
+    kgamma
+    kglobalacceld
+    kinfocenter
+    kio-gdrive
+    kmenuedit
+    knighttime
+    kpipewire
+    krdp
+    kscreen
+    kscreenlocker
+    ksshaskpass
+    ksystemstats
+    kwallet-pam
+    kwayland
+    kwin
+    kwin-x11
+    kwrited
+    layer-shell-qt
+    lib32-nvidia-580xx-utils
     lib32-sdl2_image
+    libkscreen
+    libksysguard
+    libplasma
     libpulse
     libva-intel-driver
+    libva-nvidia-driver
     linux
     linux-firmware
     linux-headers
     linux-lts-headers
-    loupe
+    lsfg-vk
     lua-language-server
-    malcontent
+    lutris
     man-db
     mangohud
     man-pages
     maven
     mesa-utils
+    milou
     mongodb-bin
     mongosh-bin
     nano
-    nautilus
     neovim
     net-tools
     networkmanager
@@ -154,14 +144,17 @@ depends=(
     notion-calendar-electron
     npm
     ntfs-3g
+    nvidia-580xx-dkms
+    nvidia-580xx-utils
     nvim-lazy
     obsidian
     obs-studio
+    ocean-sound-theme
     oh-my-zsh-git
     openssh
-    orca
     otf-aurulent-nerd
-    papers
+    oxygen
+    oxygen-sounds
     paru
     paru-debug
     pavucontrol
@@ -171,6 +164,27 @@ depends=(
     pipewire-docs
     pipewire-jack
     pipewire-pulse
+    plasma5support
+    plasma-activities
+    plasma-activities-stats
+    plasma-browser-integration
+    plasma-desktop
+    plasma-disks
+    plasma-firewall
+    plasma-integration
+    plasma-nm
+    plasma-pa
+    plasma-sdk
+    plasma-systemmonitor
+    plasma-thunderbolt
+    plasma-vault
+    plasma-welcome
+    plasma-workspace
+    plasma-workspace-wallpapers
+    plymouth-kcm
+    polkit-kde-agent
+    powerdevil
+    print-manager
     proton-ge-custom-bin
     pyright
     python
@@ -178,6 +192,7 @@ depends=(
     python-virtualenv
     qbittorrent
     qjackctl
+    qqc2-breeze-style
     ranger
     rar
     rclone
@@ -185,19 +200,17 @@ depends=(
     reflector
     ripgrep
     rust
-    rygel
     samba
-    showtime
-    simple-scan
+    sddm-kcm
     smartmontools
-    snapshot
     sof-firmware
+    spectacle
     sql-language-server
+    sshfs
     steam
-    sushi
     systemd
+    systemsettings
     teamspeak
-    tecla
     thunderbird
     tmux
     torbrowser-launcher
@@ -219,21 +232,20 @@ depends=(
     vulkan-intel
     vulkan-radeon
     vulkan-tools
+    wacomtablet
     wget
     which
     winetricks
     wireless_tools
     wireplumber
     wl-clipboard
-    xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
-    xdg-user-dirs-gtk
+    xdg-desktop-portal-kde
     xdg-utils
     xdotool
     xorg-server
     xorg-xinit
     yarn
-    yelp
     zeal
     zip
     zoom
