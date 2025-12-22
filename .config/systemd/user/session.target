@@ -4,6 +4,3 @@ After=graphical-session-pre.target
 WantedBy=graphical-session.target
 Wants=drive.timer
 Wants=fcitx5.service
-Wants=xss-lock.service
-Wants=kanshi.service
-Wants=swww.service
