@@ -1,3 +1,7 @@
+[ExtractDialog]
+1920x1080 screen: Height=540
+1920x1080 screen: Width=1256
+
 [General]
 Version=202
 ViewPropsTimestamp=2025,12,22,10,29,58.837

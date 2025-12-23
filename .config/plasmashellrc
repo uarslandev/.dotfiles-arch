@@ -1,15 +1,11 @@
 [General]
 Number of Actions=0
 
-[PlasmaTransientsConfig]
-PreloadWeight=28
-popupHeight=400
-popupWidth=560
-
 [PlasmaViews][Panel 2]
 floating=1
+floatingApplets=1
 panelLengthMode=1
-panelOpacity=0
+panelOpacity=1
 panelVisibility=1
 
 [PlasmaViews][Panel 2][Defaults]
