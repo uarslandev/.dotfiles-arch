@@ -70,6 +70,10 @@ depends=(
     element-desktop
     elisa
     falkon
+    fcitx5
+    fcitx5-configtool
+    fcitx5-gtk
+    fcitx5-mozc
     fd
     firefox
     flatpak-kcm
