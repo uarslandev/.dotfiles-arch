@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=19
+pkgrel=20
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -78,6 +78,7 @@ depends=(
     fzf-tab-git
     gamescope
     gdb
+    gemini-cli
     ghidra
     ghostwriter
     git
