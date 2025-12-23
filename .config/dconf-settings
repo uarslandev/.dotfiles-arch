@@ -426,7 +426,7 @@ window-size=(867, 326)
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=true
+show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=167
@@ -435,4 +435,4 @@ sort-directories-first=false
 sort-order='ascending'
 type-format='category'
 window-position=(45, 45)
-window-size=(1203, 881)
+window-size=(960, 1029)

@@ -1,20 +1,22 @@
-[Default Applications]
-x-scheme-handler/http=firefox.desktop
-application/xhtml+xml=firefox.desktop
-text/html=firefox.desktop
-x-scheme-handler/https=firefox.desktop
-x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
-x-scheme-handler/discord=vesktop.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-O0TSH3.desktop
-message/rfc822=userapp-Thunderbird-O0TSH3.desktop
-x-scheme-handler/mid=userapp-Thunderbird-O0TSH3.desktop
-
 [Added Associations]
-x-scheme-handler/http=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 text/html=firefox.desktop;
+video/mp4=mpv.desktop;org.kde.koko.desktop;org.kde.dragonplayer.desktop;
+x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
-x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
-x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-O0TSH3.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-O0TSH3.desktop;
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+
+[Default Applications]
+application/xhtml+xml=firefox.desktop
+message/rfc822=userapp-Thunderbird-O0TSH3.desktop
+text/html=firefox.desktop
+video/mp4=mpv.desktop;
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-O0TSH3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-O0TSH3.desktop
