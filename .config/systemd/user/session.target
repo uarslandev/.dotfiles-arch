@@ -1,6 +1,6 @@
 [Unit]
 Description="Session Target"
 After=graphical-session-pre.target
-WantedBy=graphical-session.target
+WantedBy=graphical.target
 Wants=drive.timer
 Wants=fcitx5.service
