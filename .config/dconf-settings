@@ -7,6 +7,7 @@ window-width=880
 [desktop/ibus/general]
 engines-order=['xkb:de:us:deu', 'mozc-jp']
 preload-engines=['mozc-jp', 'xkb:de:us:deu']
+use-system-keyboard-layout=false
 version='1.5.33'
 
 [desktop/ibus/general/hotkey]
