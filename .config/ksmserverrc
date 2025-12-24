@@ -2,4 +2,9 @@
 count=0
 
 [Session: saved at previous logout]
-count=0
+clientId1=10706300000176657869800000018860002
+count=1
+program1=/usr/bin/keepassxc
+restartCommand1=/usr/bin/keepassxc,-session,10706300000176657869800000018860002_1766588531_453592
+restartStyleHint1=0
+userId1=user
