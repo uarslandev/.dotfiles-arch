@@ -1,0 +1,10 @@
+[%General]
+Driver=QMYSQL
+
+[QMYSQL]
+DataDir=/home/user/.local/share/akonadi/db_data
+Host=
+Name=akonadi
+Options="UNIX_SOCKET=/run/user/1000/akonadi/mysql.socket"
+ServerPath=/usr/bin/mariadb
+StartServer=true
