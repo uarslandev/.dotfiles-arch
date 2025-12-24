@@ -1,0 +1,47 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
+Rulers=false
+StatusBarShowLineNumber=true
+StatusBarShowModified=true
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowPageSize=false
+StatusBarShowPageStyle=true
+StatusBarShowWordCount=false
+StatusBarShowZoom=true
+ViewFieldShadings=true
+ViewFormattingChars=false
+ViewFrameBorders=true
+ViewSectionBounds=false
+ViewTableBorders=true
+Zoom=100
+ZoomMode=1
+
+[Misc]
+Units=in
+
+[Recent Files]
+File1[$e]=$HOME/Drive/Important/Bezüge und Schufa/Bestätigung Schufa Antrag.pdf
+File2[$e]=$HOME/Drive/Important/Bezüge und Schufa/Schufa Auskunft.pdf
+File3[$e]=$HOME/Documents/Mieterselbstauskunft.docx
+File4[$e]=$HOME/Downloads/Selbstauskunft_kfh.pdf
+Name1[$e]=Bestätigung Schufa Antrag.pdf
+Name2[$e]=Schufa Auskunft.pdf
+Name3[$e]=Mieterselbstauskunft.docx
+Name4[$e]=Selbstauskunft_kfh.pdf
+
+[calligra]
+DockerPlugins=calligra_docker_defaults,calligra_docker_stencils
+DockerPluginsDisabled=
+ShapePlugins=braindump_shape_web,calligra_shape_artistictext,calligra_shape_chart,calligra_shape_formula,calligra_shape_music,calligra_shape_paths,calligra_shape_picture,calligra_shape_plugin,calligra_shape_text,calligra_shape_threed,calligra_shape_vector,calligra_shape_video
+ShapePluginsDisabled=
+ToolPlugins=calligra_tool_basicflakes,calligra_tool_defaults,karbon_tools
+ToolPluginsDisabled=

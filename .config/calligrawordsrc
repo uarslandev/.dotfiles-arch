@@ -1,0 +1,99 @@
+datafile=/usr/share/calligra/thesaurus/thesaurus.txt
+
+[File Dialogs]
+SaveDocument=/home/user/Documents
+
+[Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
+Rulers=false
+StatusBarShowLineNumber=true
+StatusBarShowModified=true
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowPageSize=false
+StatusBarShowPageStyle=true
+StatusBarShowWordCount=false
+StatusBarShowZoom=true
+ViewFieldShadings=true
+ViewFormattingChars=false
+ViewFrameBorders=true
+ViewSectionBounds=false
+ViewTableBorders=true
+Zoom=176
+ZoomMode=1
+
+[MainWindow]
+1920x1080 screen: Window-Maximized=true
+ko_geometry=AdnQywADAAAAAAAAAAAAAAAAB38AAAQbAAAAAQAAABkAAAd+AAAENAAAAAACAAAAB4AAAAAAAAAAAAAAB38AAAQb
+ko_windowstate=AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAUAFMAdABlAG4AYwBpAGwAQgBvAHgAAAAAAP////8AAAChAP///wAAAAEAAAeAAAAD0PwCAAAABvsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAATAAAANYAAABrAP////sAAAAUAE4AYQB2AGkAZwBhAHQAaQBvAG4AAAAAAP////8AAAB3AP////sAAAAKAEQAZQBiAHUAZwAAAAAA/////wAAAH8A////+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAGAD////7AAAAFABTAHQAYQB0AGkAcwB0AGkAYwBzAAAAAAD/////AAABBAD////7AAAADgBNAG8AZABlAEIAbwB4AQAAAEwAAAPQAAAAigD///4AAAAAAAADuQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+
+[Misc]
+Units=in
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME/Documents
+
+[RecentFiles]
+File1[$e]=$HOME/Documents/s.docx
+File2[$e]=$HOME/Documents/Mieterselbstauskunft.docx
+Name1[$e]=s.docx
+Name2[$e]=Mieterselbstauskunft.docx
+
+[Statistics]
+CharnospacesVisible=true
+CharspacesVisible=true
+EastAsianCharactersVisible=true
+FleschVisible=true
+LinesVisible=true
+SentencesVisible=true
+SyllablesVisible=true
+WordsVisible=true
+
+[Stencil Box]
+viewMode=1
+
+[calligra]
+DockerPlugins=calligra_docker_defaults,calligra_docker_stencils
+DockerPluginsDisabled=
+ShapePlugins=braindump_shape_web,calligra_shape_artistictext,calligra_shape_chart,calligra_shape_formula,calligra_shape_music,calligra_shape_paths,calligra_shape_picture,calligra_shape_plugin,calligra_shape_text,calligra_shape_threed,calligra_shape_vector,calligra_shape_video
+TextEditingPlugins=calligra_textediting_autocorrect,calligra_textediting_changecase,calligra_textediting_spellcheck,calligra_textediting_thesaurus
+TextEditingPluginsDisabled=
+TextInlinePlugins=calligra_textinlineobject_variables
+ToolPlugins=calligra_tool_basicflakes,calligra_tool_defaults,karbon_tools
+ToolPluginsDisabled=
+
+[calligrawords][DockWidget Debug]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget ModeBox]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget Navigation]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget Statistics]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget StencilBox]
+Collapsed=false
+DockArea=1
+Locked=false
+
+[calligrawords][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+Locked=false
