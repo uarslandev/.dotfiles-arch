@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=20
+pkgrel=21
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -248,6 +248,7 @@ depends=(
     libksysguard
     libplasma
     libpulse
+    libreoffice-fresh
     libva-intel-driver
     libva-nvidia-driver
     linux
@@ -406,6 +407,7 @@ depends=(
     xorg-xinit
     yakuake
     yarn
+    ytmdesktop
     zeal
     zip
     zoom
