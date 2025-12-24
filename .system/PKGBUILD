@@ -70,10 +70,6 @@ depends=(
     element-desktop
     elisa
     falkon
-    fcitx5
-    fcitx5-configtool
-    fcitx5-gtk
-    fcitx5-mozc
     fd
     firefox
     flatpak-kcm
@@ -100,6 +96,8 @@ depends=(
     gxplugins-lv2-git
     heroic-games-launcher-bin
     htop
+    ibus
+    ibus-mozc
     ida-free
     imhex-bin
     intel-compute-runtime

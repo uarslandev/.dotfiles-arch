@@ -4,6 +4,14 @@ startup-view='page_list'
 window-height=688
 window-width=880
 
+[desktop/ibus/general]
+engines-order=['xkb:de:us:deu', 'mozc-jp']
+preload-engines=['mozc-jp', 'xkb:de:us:deu']
+version='1.5.33'
+
+[desktop/ibus/general/hotkey]
+triggers=['<Control>space']
+
 [org/gnome/Console]
 custom-font='AurulentSansM Nerd Font 10'
 ignore-scrollback-limit=true
