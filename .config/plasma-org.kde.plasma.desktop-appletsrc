@@ -149,9 +149,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][19][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][20]
@@ -159,7 +160,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][2][Applets][7][Applets][21]
 immutability=1
@@ -191,7 +192,7 @@ immutability=1
 plugin=org.kde.merkuro.contact.applet
 
 [Containments][2][Applets][7][Applets][36][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=630
@@ -216,6 +217,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][7][General]
+disabledStatusNotifiers=KMix
 extraItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
 knownItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.merkuro.contact.applet,org.kde.plasma.kclock_1x2,org.kde.plasma.kweather_1x4
 
@@ -224,4 +226,4 @@ AppletOrder=29;4;6;35;7;22;23
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8
+screenMapping=desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8
