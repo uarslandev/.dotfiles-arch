@@ -1,6 +1,5 @@
 [Layout]
-LayoutList=us
+DisplayNames=
+LayoutList=eu
 Use=true
 VariantList=
-DisplayNames=
-

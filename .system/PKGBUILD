@@ -96,8 +96,6 @@ depends=(
     gxplugins-lv2-git
     heroic-games-launcher-bin
     htop
-    ibus
-    ibus-mozc
     ida-free
     imhex-bin
     intel-compute-runtime
