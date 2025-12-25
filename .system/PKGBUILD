@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=21
+pkgrel=22
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -70,6 +70,11 @@ depends=(
     element-desktop
     elisa
     falkon
+    fcitx5
+    fcitx5-configtool
+    fcitx5-gtk
+    fcitx5-mozc
+    fcitx5-qt
     fd
     firefox
     flatpak-kcm
