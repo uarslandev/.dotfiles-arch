@@ -257,7 +257,6 @@ depends=(
     linux-headers
     linux-lts-headers
     lokalize
-    lsfg-vk
     lskat
     lua-language-server
     lutris
