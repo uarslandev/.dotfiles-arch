@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=25
+pkgrel=26
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -56,7 +56,6 @@ depends=(
     cups-pdf
     curl
     direnv
-    discord
     discover
     dkms
     docker
@@ -382,6 +381,7 @@ depends=(
     unityhub
     unzip
     ventoy-bin
+    vesktop-bin
     vi
     vim
     vimix-kanagawa-cursors
