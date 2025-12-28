@@ -149,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][19][Configuration][General]
 migrated=true
