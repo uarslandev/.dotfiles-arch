@@ -2,14 +2,9 @@
 count=0
 
 [Session: saved at previous logout]
-clientId1=10706300000176683886900000018720002
-clientId2=10706300000176683943100000018720003
-count=2
-program1=/usr/bin/keepassxc
-program2=firefox
-restartCommand1=/usr/bin/keepassxc,-session,10706300000176683886900000018720002_1766841152_541388
-restartCommand2=/usr/lib/firefox/firefox,--sm-client-id,10706300000176683943100000018720003
+clientId1=10706300000176683943100000018720003
+count=1
+program1=firefox
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10706300000176683943100000018720003
 restartStyleHint1=0
-restartStyleHint2=0
 userId1=user
-userId2=user

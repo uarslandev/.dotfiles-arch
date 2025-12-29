@@ -1,12 +1,23 @@
 [Desktops]
 Id_1=3e06285c-54a0-4113-847a-a369cb582648
-Number=1
+Id_2=a73065f7-4182-4164-a50f-2c0dc3b9ba07
+Id_3=35d7854f-e7ec-4f9a-8f2b-25af4f279383
+Number=3
 Rows=1
 
 [Tiling]
 padding=4
 
+[Tiling][35d7854f-e7ec-4f9a-8f2b-25af4f279383][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3e06285c-54a0-4113-847a-a369cb582648][]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3e06285c-54a0-4113-847a-a369cb582648][1bbb7b15-c27e-4dda-9821-7233e848da79]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3e06285c-54a0-4113-847a-a369cb582648][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3e06285c-54a0-4113-847a-a369cb582648][8c296dfb-343a-4bcd-9401-adaebaa9c982]
@@ -15,8 +26,17 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][3e06285c-54a0-4113-847a-a369cb582648][b596a67a-5d6d-4e8a-8ca6-bcf7227fea87]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][421daf22-8629-450d-86f9-697adfbfb3ae][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][63184671-ac52-4269-b2e6-28963f2dbb35][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a73065f7-4182-4164-a50f-2c0dc3b9ba07][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][b5e7ec18-7fc4-447f-ac26-e7c998625650][5050ba4a-bc1d-4d85-898c-f1fe35a6044c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Wayland]
 InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
-
-[Xwayland]
-Scale=1

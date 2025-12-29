@@ -21,3 +21,5 @@ x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-O0TSH3.desktop
 x-scheme-handler/mid=userapp-Thunderbird-O0TSH3.desktop
 x-scheme-handler/ytmd=youtube-music-desktop-app.desktop
+x-scheme-handler/io.element.desktop=io.element.Element.desktop
+x-scheme-handler/element=io.element.Element.desktop
