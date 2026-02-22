@@ -56,7 +56,6 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][29][Configuration]
-PreloadWeight=100
 popupHeight=562
 popupWidth=647
 
@@ -111,9 +110,6 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][2][Applets][7][Applets][12][Configuration]
-PreloadWeight=55
-
 [Containments][2][Applets][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.vault
@@ -122,9 +118,6 @@ plugin=org.kde.plasma.vault
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][2][Applets][7][Applets][14][Configuration]
-PreloadWeight=60
-
 [Containments][2][Applets][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -132,9 +125,6 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][2][Applets][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
-
-[Containments][2][Applets][7][Applets][16][Configuration]
-PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][17]
 immutability=1
@@ -148,18 +138,12 @@ plugin=org.kde.plasma.weather
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=75
-
 [Containments][2][Applets][7][Applets][19][Configuration][General]
 migrated=true
 
 [Containments][2][Applets][7][Applets][20]
 immutability=1
 plugin=org.kde.plasma.notifications
-
-[Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][21]
 immutability=1
@@ -169,15 +153,9 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=0
-
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][26]
 immutability=1
@@ -190,9 +168,6 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.merkuro.contact.applet
 
-[Containments][2][Applets][7][Applets][36][Configuration]
-PreloadWeight=70
-
 [Containments][2][Applets][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
@@ -200,12 +175,13 @@ DialogWidth=810
 [Containments][2][Applets][7][Applets][37][Configuration]
 PreloadWeight=42
 
+[Containments][2][Applets][7][Applets][38]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.kdeconnect
-
-[Containments][2][Applets][7][Applets][8][Configuration]
-PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -218,11 +194,20 @@ DialogWidth=810
 [Containments][2][Applets][7][General]
 disabledStatusNotifiers=KMix
 extraItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
-knownItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.merkuro.contact.applet,org.kde.plasma.kclock_1x2,org.kde.plasma.kweather_1x4
+knownItems=org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.merkuro.contact.applet,org.kde.plasma.kclock_1x2
 
 [Containments][2][General]
 AppletOrder=29;4;6;35;7;22;23
 
+[Containments][37]
+activityId=37a48bbb-4f73-421f-9bc9-c12488827fd8
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/net.lutris.god-of-war-7.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-ragnarok-6.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.affinity-suite-9.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.lnk,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.witcher-3-8.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8
+screenMapping=desktop:/net.lutris.witcher-3-8.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.affinity-suite-9.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.lnk,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-ragnarok-6.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-7.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8

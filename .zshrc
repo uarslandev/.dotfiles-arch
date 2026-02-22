@@ -321,7 +321,7 @@ alias gl="git log --graph --pretty=format:'%C(auto)%h %d %s %C(blue)(%cr) %C(gre
 alias gls="git ls-files" # git list files
 alias glsf="git ls-files | awk -F'/' '{print \$1}' | sort | uniq" 
 alias glsu="git ls-files --others --exclude-standard" #git lists untracked files
-alias glsuf="git ls-files --others --exclude-standard | awk -F'/' '{print \$1}' | sort | uniq"
+alias glsuu="git ls-files --others --exclude-standard | awk -F'/' '{print \$1}' | sort | uniq"
 alias gp="git push"
 alias gpl="git pull"
 alias gpr="git pull --rebase"
