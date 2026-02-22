@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=27
+pkgrel=28
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -285,6 +285,7 @@ depends=(
     networkmanager
     network-manager-applet
     networkmanager-openvpn
+    nextcloud-client
     nmap
     nodejs-lts-jod
     notion-app-electron
