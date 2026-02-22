@@ -1,2 +1,5 @@
+[Adapters]
+BC:F1:05:AF:AD:BA_powered=true
+
 [Devices]
 connectedDevices=

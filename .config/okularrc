@@ -33,10 +33,12 @@ File1[$e]=$HOME/Drive/Important/Bezüge und Schufa/Bestätigung Schufa Antrag.pd
 File2[$e]=$HOME/Drive/Important/Bezüge und Schufa/Schufa Auskunft.pdf
 File3[$e]=$HOME/Documents/Mieterselbstauskunft.docx
 File4[$e]=$HOME/Downloads/Selbstauskunft_kfh.pdf
+File5[$e]=$HOME/Nextcloud/978-3-032-10444-1.pdf
 Name1[$e]=Bestätigung Schufa Antrag.pdf
 Name2[$e]=Schufa Auskunft.pdf
 Name3[$e]=Mieterselbstauskunft.docx
 Name4[$e]=Selbstauskunft_kfh.pdf
+Name5[$e]=978-3-032-10444-1.pdf
 
 [calligra]
 DockerPlugins=calligra_docker_defaults,calligra_docker_stencils
