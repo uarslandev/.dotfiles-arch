@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=26
+pkgrel=27
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -23,7 +23,6 @@ depends=(
     angelfish
     angular-cli
     ani-cli
-    anki-bin
     arianna
     ark
     artikulate
@@ -48,12 +47,12 @@ depends=(
     calligra
     cantor
     carla
-    ceserver
     cheat-engine-zh
     colord-kde
     csharp-ls
     cups
     cups-pdf
+    cups-pk-helper
     curl
     direnv
     discover
@@ -95,12 +94,14 @@ depends=(
     granatier
     grantlee-editor
     graphql-lsp
+    grim
     gst-plugin-pipewire
     guitarix
     gwenview
     gxplugins-lv2-git
     heroic-games-launcher-bin
     htop
+    hyprland
     ida-free
     imhex-bin
     intel-compute-runtime
@@ -129,6 +130,7 @@ depends=(
     kapman
     kapptemplate
     kasts
+    kate
     katomic
     kbackup
     kblackbox
@@ -204,6 +206,7 @@ depends=(
     kongress
     konqueror
     konquest
+    konsole
     kontact
     kontrast
     konversation
@@ -243,8 +246,6 @@ depends=(
     kwordquiz
     kwrited
     layer-shell-qt
-    lib32-nvidia-580xx-utils
-    lib32-sdl2_image
     libkscreen
     libksysguard
     libplasma
@@ -254,7 +255,9 @@ depends=(
     libva-nvidia-driver
     linux
     linux-firmware
+    linux-firmware-marvell
     linux-headers
+    linux-lts
     linux-lts-headers
     lokalize
     lsfg-vk-bin
@@ -272,6 +275,7 @@ depends=(
     mesa-utils
     milou
     minuet
+    mkinitcpio
     mongodb-bin
     mongosh-bin
     nano
@@ -320,6 +324,7 @@ depends=(
     plasma-disks
     plasma-firewall
     plasma-integration
+    plasma-meta
     plasma-nm
     plasma-pa
     plasma-sdk
@@ -333,6 +338,7 @@ depends=(
     plymouth-kcm
     polkit-kde-agent
     powerdevil
+    power-profiles-daemon
     poxml
     print-manager
     pyright
@@ -343,6 +349,8 @@ depends=(
     qjackctl
     qqc2-breeze-style
     qrca
+    qt5-wayland
+    qt6-wayland
     ranger
     rar
     rclone
@@ -352,19 +360,21 @@ depends=(
     rocs
     rust
     samba
+    sddm
     sddm-kcm
     skanlite
     skanpage
     skladnik
+    slurp
     smartmontools
     sof-firmware
     spectacle
     sql-language-server
     sshfs
-    steam
     step
     svgpart
     sweeper
+    system-config-printer
     systemd
     systemsettings
     teamspeak
@@ -380,6 +390,7 @@ depends=(
     umbrello
     unityhub
     unzip
+    uwsm
     ventoy-bin
     vesktop-bin
     vi
@@ -390,6 +401,7 @@ depends=(
     vscode-json-languageserver
     vue-language-server
     vulkan-intel
+    vulkan-nouveau
     vulkan-radeon
     vulkan-tools
     wacomtablet
@@ -399,16 +411,23 @@ depends=(
     wireless_tools
     wireplumber
     wl-clipboard
+    wofi
+    wpa_supplicant
     xdg-desktop-portal-gtk
+    xdg-desktop-portal-hyprland
     xdg-desktop-portal-kde
     xdg-utils
     xdotool
+    xf86-video-amdgpu
+    xf86-video-ati
+    xf86-video-nouveau
     xorg-server
     xorg-xinit
     yakuake
     yarn
-    ytmdesktop
     zeal
+    zfs-linux-lts
+    zfs-utils
     zip
     zoom
     zotero-bin
