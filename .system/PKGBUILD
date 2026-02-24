@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=29
+pkgrel=30
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -33,6 +33,7 @@ depends=(
     base
     base-devel
     bash-language-server
+    biber
     blender
     blinken
     bluedevil
@@ -381,6 +382,15 @@ depends=(
     systemsettings
     teamspeak
     telly-skout
+    texlive-bibtexextra
+    texlive-binextra
+    texlive-fontsextra
+    texlive-fontsrecommended
+    texlive-latex
+    texlive-latexextra
+    texlive-latexrecommended
+    texlive-mathscience
+    texstudio
     thunderbird
     tmux
     tokodon
