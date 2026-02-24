@@ -1,6 +1,9 @@
 [Applications][discord]
 Seen=true
 
+[Applications][firefox]
+Seen=true
+
 [Applications][org.gnome.Console]
 Seen=true
 

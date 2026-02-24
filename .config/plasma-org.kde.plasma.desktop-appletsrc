@@ -6,6 +6,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1024x768=
+ItemGeometries-1766x1103=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=37a48bbb-4f73-421f-9bc9-c12488827fd8
@@ -153,6 +154,9 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][2][Applets][7][Applets][24][Configuration][General]
+showPercentage=true
+
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.brightness
@@ -210,4 +214,4 @@ wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Affinity.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-7.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.witcher-3-8.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.affinity-suite-9.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-ragnarok-6.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.lnk,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8
+screenMapping=desktop:/net.lutris.path-of-exile-2-1.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Counter-Strike 2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.affinity-suite-9.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.lnk,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.witcher-3-8.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-ragnarok-6.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.god-of-war-7.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/steam.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/net.lutris.cheat-engine-2.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8,desktop:/Affinity.desktop,0,37a48bbb-4f73-421f-9bc9-c12488827fd8
