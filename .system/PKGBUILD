@@ -2,7 +2,7 @@ tar -h --exclude=.idea -cf rootfs.tar -C rootfs .
 
 pkgname=linux-config
 pkgver=0.1.0
-pkgrel=28
+pkgrel=29
 pkgdesc='linux config'
 url="https://github.com/uarslandev/.dotfiles-arch"
 license=('GPL3')
@@ -23,6 +23,7 @@ depends=(
     angelfish
     angular-cli
     ani-cli
+    anki
     arianna
     ark
     artikulate
