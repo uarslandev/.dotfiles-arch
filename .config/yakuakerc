@@ -1,2 +1,5 @@
 [Dialogs]
 FirstRun=false
+
+[Window]
+Width=70

@@ -438,7 +438,8 @@ depends=(
     yakuake
     yarn
     zeal
-    zfs-linux-lts
+    zfs-dkms
+    #zfs-linux-lts
     zfs-utils
     zip
     zoom
